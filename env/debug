@@ -1,0 +1,3 @@
+CFLAGS="-O1 -ggdb -pipe"
+CXXFLAGS="${CFLAGS}"
+FEATURES="${FEATURES} nostrip"

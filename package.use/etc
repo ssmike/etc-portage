@@ -1,0 +1,343 @@
+app-admin/conky mpd
+www-client/firefox system-cairo system-icu system-jpeg system-sqlite
+www-client/w3m imlib
+media-sound/clementine system-sqlite
+dev-java/oracle-jdk-bin nsplugin
+
+net-p2p/transmission -gtk
+net-wireless/wpa_supplicant eap-sim ap p2p wps
+
+net-analyzer/nmap zenmap
+
+app-text/zathura-meta cb postscript
+
+net-print/cups -usb
+
+# required by app-text/calibre-2.19.0
+# required by calibre (argument)
+>=dev-python/PyQt5-5.4 widgets printsupport network webkit
+
+media-libs/mediastreamer video
+net-libs/opal sipim
+net-dns/avahi autoipd utils
+
+#x11-libs/libdrm libkms
+
+gnome-base/gvfs samba
+media-video/vlc fontconfig samba libass qt4 -qt5 -ncurses dts -libav -kde wma-fixed a52
+
+#required by deluge
+dev-libs/boost python
+# move net-libs/rb_libtorrent net-libs/libtorrent-rasterbar
+net-libs/libtorrent-rasterbar python
+sys-fs/mtpfs mad
+
+net-wireless/blueman network
+net-wireless/bluez gstreamer
+
+gnome-base/gvfs fuse archive
+dev-util/gtk-doc doc #workaround for failed automake runs during emerge x11-libs/pango
+dev-libs/boost -icu #workaround for 'failed to emerge dev-libs/boost'
+
+media-sound/clementine googledrive lastfm
+>=dev-vcs/subversion-1.7.14 -dso perl
+>=sys-libs/zlib-1.2.8-r1 minizip
+>=dev-libs/libxml2-2.9.1-r1 icu
+sys-devel/llvm clang
+app-editors/vim python vim-pager
+
+media-libs/gst-plugins-base theora
+
+>=dev-libs/elfutils-0.158 static-libs
+
+sys-block/gparted btrfs f2fs gtk hfs jfs ntfs reiser4 reiserfs xfs
+# required by net-misc/gtkvncviewer-0.4
+# required by net-misc/gtkvncviewer (argument)
+net-libs/gtk-vnc python
+# required by media-gfx/graphviz-2.26.3-r4
+# required by dev-haskell/graphviz-2999.16.0.0-r3::gentoo-haskell
+# required by dev-haskell/xdot-0.2.4.2-r1::gentoo-haskell
+# required by dev-haskell/ghc-vis-0.7.2.1-r2::gentoo-haskell[graph]
+# required by ghc-vis (argument)
+media-libs/gd fontconfig
+# required by app-text/calibre-1.20
+# required by calibre (argument)
+dev-python/PyQt4 webkit
+
+# required by net-voip/ekiga-4.0.0-r1
+# required by ekiga (argument)
+>=net-libs/ptlib-2.10.10 wav
+
+# required by app-emulation/virt-manager-0.10.0-r2
+# required by virt-manager (argument)
+>=app-emulation/libvirt-glib-0.1.7 python
+# required by app-emulation/virt-manager-0.10.0-r2[gtk]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.21 gtk3 python usbredir
+# required by dev-qt/qtcore-5.3.1-r1::qt
+# required by dev-qt/qtserialport-5.3.1::qt
+# required by @qt5-addons (argument)
+>=dev-libs/libpcre-8.35 pcre16
+
+net-dns/avahi gtk3 mdnsresponder-compat
+dev-qt/qtsql -mysql
+#dev-vcs/subversion -kde
+# move kde-base/kdebase-runtime-meta kde-apps/kdebase-runtime-meta
+kde-apps/kdebase-runtime-meta -crash-reporter
+# move kde-base/dolphin-plugins kde-apps/dolphin-plugins
+kde-apps/dolphin-plugins git subversion mercurial
+# required by kde-base/libkexiv2-4.14.2::kde
+# required by kde-base/okular-4.14.2::kde[jpeg]
+# required by okular (argument)
+media-gfx/exiv2 xmp
+
+# required by x11-terms/terminator-0.96-r1
+# required by terminator (argument)
+>=x11-libs/vte-0.28.2-r206:0 python
+# required by x11-terms/terminator-0.96-r1
+# required by terminator (argument)
+>=dev-libs/keybinder-0.3.0-r200 python
+app-editors/vim-qt python
+=dev-python/PyQt4-4.11.1 script sql declarative
+net-im/qutim vkontakte jabber jingle qml irc webkit
+>=dev-qt/qt-mobility-1.2.2_p20130703-r1 multimedia
+x11-misc/dzen xft
+app-admin/conky wifi
+net-misc/wicd -gtk
+
+app-crypt/johntheripper cuda
+
+sys-apps/systemd sysv-utils
+app-portage/layman sync-plugin-portage
+
+app-doc/linuxfromscratch pdf
+
+x11-misc/sddm -upower
+www-plugins/adobe-flash -kde
+x11-themes/qtcurve windeco
+
+# required by www-client/chromium-43.0.2357.130::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvpx-1.4.0 postproc
+
+# required by media-libs/phonon-vlc-0.7.2::gentoo
+# required by media-libs/phonon-4.7.2::gentoo[vlc]
+# required by kde-frameworks/khtml-5.11.0::gentoo
+# required by @preserved-rebuild (argument)
+
+app-office/libreoffice vlc java
+
+kde-plasma/plasma-desktop legacy-systray
+mail-client/mutt smtp
+
+# required by net-im/qtox-9999::tox-overlay
+# required by qtox (argument)
+>=media-video/ffmpeg-2.6.3 webp
+
+media-libs/libechonest qt4
+
+>=media-video/mpv-0.9.2-r1 libmpv
+
+www-client/w3m fbcon
+
+# required by sys-boot/plymouth-0.8.8-r4::gentoo[libkms]
+# required by plymouth (argument)
+>=x11-libs/libdrm-2.4.59 libkms
+
+# required by gnome-base/gnome-keyring-3.16.0-r1::gentoo
+# required by app-crypt/libsecret-0.18.3::gentoo
+# required by gnome-extra/nm-applet-1.0.6::gentoo
+# required by nm-applet (argument)
+>=app-crypt/pinentry-0.9.5 gnome-keyring
+
+# required by media-sound/mopidy-1.1.1::mike-overlay
+# required by media-plugins/mopidy-gmusic-1.0.0_pre20150624::spike
+# required by mopidy-gmusic (argument)
+>=media-plugins/gst-plugins-meta-0.10-r10:0.10 http
+
+games-util/steam-client-meta streaming
+
+app-emulation/wine staging
+>=app-text/texlive-core-2010 xetex
+dev-vcs/mercurial tk
+
+app-misc/remind tk
+dev-java/antlr java
+
+app-editors/emacs toolkit-scroll-bars
+
+media-plugins/evas_generic_loaders  svg
+
+app-admin/conky -nvidia
+
+lxqt-base/lxqt-meta sddm powermanagement -filemanager admin
+xfce-extra/thunar-vcs-plugin -subversion
+
+x11-misc/xmonad-extras perwindow volume
+
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by skype (argument)
+>=dev-qt/qtwebkit-4.8.7:4 -exceptions
+
+# required by app-emulation/wine-1.9.8::gentoo[samba]
+# required by @selected
+# required by @world (argument)
+>=net-fs/samba-4.2.11 winbind
+
+net-im/telegram-cli -lua
+
+# required by net-fs/samba-4.2.11::gentoo
+# required by net-libs/libsoup-2.52.2::gentoo[samba]
+# required by net-misc/networkmanager-1.0.12-r1::gentoo
+# required by net-libs/libproxy-0.4.13-r1::gentoo[networkmanager]
+# required by net-libs/glib-networking-2.46.1::gentoo[libproxy]
+>=sys-libs/ntdb-1.0-r1 python
+# required by sys-libs/ldb-1.1.26::gentoo
+# required by net-fs/samba-4.2.11::gentoo
+# required by net-libs/libsoup-2.52.2::gentoo[samba]
+# required by net-misc/networkmanager-1.0.12-r1::gentoo
+# required by net-libs/libproxy-0.4.13-r1::gentoo[networkmanager]
+# required by net-libs/glib-networking-2.46.1::gentoo[libproxy]
+>=sys-libs/tdb-1.3.8 python
+# required by sys-libs/ldb-1.1.26::gentoo
+# required by net-fs/samba-4.2.11::gentoo
+# required by net-libs/libsoup-2.52.2::gentoo[samba]
+# required by net-misc/networkmanager-1.0.12-r1::gentoo
+# required by net-libs/libproxy-0.4.13-r1::gentoo[networkmanager]
+# required by net-libs/glib-networking-2.46.1::gentoo[libproxy]
+>=sys-libs/tevent-0.9.28 python
+# required by dev-util/itstool-2.0.2::gentoo
+# required by app-arch/file-roller-3.16.5::gentoo
+# required by file-roller (argument)
+>=dev-libs/libxml2-2.9.4 python
+
+# required by app-text/zathura-pdf-poppler-0.2.5::gentoo
+# required by app-text/zathura-meta-0::gentoo[pdf]
+# required by app-text/zathura-meta (argument)
+>=app-text/poppler-0.45.0 cairo
+
+net-p2p/qbittorrent -qt5 qt4
+
+# required by www-client/chromium-54.0.2840.34::gentoo
+# required by chromium (argument)
+>=media-libs/libvpx-1.6.0-r1 svc
+
+# required by www-client/firefox-49.0::gentoo
+# # required by firefox (argument)
+>=media-libs/libpng-1.6.25 apng
+
+# required by net-print/cups-filters-1.11.4::gentoo[postscript]
+# required by net-print/cups-2.1.4::gentoo
+# required by app-office/libreoffice-5.2.2.2::gentoo[cups]
+# required by libreoffice (argument)
+>=app-text/ghostscript-gpl-9.19 cups
+
+# required by media-gfx/gimp-2.9.4::gentoo
+# required by gimp (argument)
+>=media-libs/libmypaint-1.3.0_beta1 gegl
+# required by media-gfx/gimp-2.9.4::gentoo
+# required by gimp (argument)
+>=media-libs/gegl-0.3.8 cairo
+
+# required by media-libs/clutter-1.26.0::gentoo[egl]
+# required by x11-wm/mutter-3.20.3::gentoo[kms]
+# required by gnome-base/gnome-shell-3.20.4::gentoo
+# required by gnome-base/gdm-3.20.1::gentoo
+# required by gdm (argument)
+>=media-libs/cogl-1.22.2 gles2
+# required by x11-wm/mutter-3.20.3::gentoo[kms]
+# required by gnome-base/gnome-shell-3.20.4::gentoo
+# required by gnome-base/gdm-3.20.1::gentoo
+# required by gdm (argument)
+>=media-libs/clutter-1.26.0 egl
+
+dev-libs/efl sound
+
+# required by media-sound/nuvolaplayer-9999::mike-overlay
+# required by @selected
+# required by @world (argument)
+>=app-crypt/libsecret-0.18.5 vala
+
+# required by net-wireless/aircrack-ng-1.2_rc4::gentoo[airdrop-ng]
+# required by net-wireless/aircrack-ng (argument)
+>=net-wireless/lorcon-0.0_p20150109 python
+
+# required by dev-util/nvidia-cuda-toolkit-8.0.44::gentoo
+# required by app-crypt/johntheripper-1.8.0::pentoo[cuda]
+# required by net-analyzer/metasploit-9999::gentoo
+# required by metasploit:9999 (argument)
+>=x11-drivers/nvidia-drivers-375.10-r1 uvm
+# required by dev-ruby/metasploit_data_models-2.0.0::gentoo[ruby_targets_ruby21]
+# required by net-analyzer/metasploit-9999::gentoo[ruby_targets_ruby21]
+# required by metasploit:9999 (argument)
+>=dev-ruby/activerecord-4.2.7.1:4.2 postgres
+
+media-video/vlc xml
+
+# required by dev-qt/qtwebengine-5.7.1::gentoo
+# required by media-video/orion-1.3.5::gentoo
+# required by orion (argument)
+>=dev-qt/qtwebchannel-5.7.1 qml
+
+mail-client/mutt imap -berkdb
+
+media-video/ffmpeg fdk
+gnome-base/nautilus tracker
+
+# required by net-p2p/qbittorrent-3.3.10::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtsingleapplication-2.6.1_p20150629 qt5
+# required by dev-qt/qtsingleapplication-2.6.1_p20150629::gentoo
+# required by net-p2p/qbittorrent-3.3.10::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtlockedfile-2.4.1_p20150629 qt5
+
+www-client/chromium -suid
+
+# required by app-shells/fish-2.5.0::gentoo
+# required by fish (argument)
+>=dev-libs/libpcre2-10.23 pcre32
+
+# required by media-sound/tomahawk-0.9.0_pre20161029-r1::gentoo
+# required by tomahawk (argument)
+>=dev-libs/qtkeychain-0.7.0 qt5
+# required by media-sound/tomahawk-0.9.0_pre20161029-r1::gentoo
+# required by tomahawk (argument)
+>=media-video/vlc-2.2.4-r1 mp3
+# required by media-sound/tomahawk-0.9.0_pre20161029-r1::gentoo
+# required by tomahawk (argument)
+>=dev-libs/quazip-0.7.2-r1 qt5
+# required by media-sound/tomahawk-0.9.0_pre20161029-r1::gentoo
+# required by tomahawk (argument)
+>=media-libs/liblastfm-1.0.9-r1 qt5
+
+# required by x11-misc/shutter-0.93.1-r3::gentoo
+# required by shutter (argument)
+>=virtual/imagemagick-tools-0 perl
+# required by virtual/imagemagick-tools-0::gentoo
+# required by x11-misc/shutter-0.93.1-r3::gentoo
+# required by shutter (argument)
+>=media-gfx/imagemagick-6.9.7.9 perl
+
+# required by app-text/calibre-2.80.0::gentoo
+# required by calibre (argument)
+>=dev-python/PyQt5-5.8.2 svg gui
+# required by x11-misc/xdg-utils-1.1.2::gentoo
+# required by app-text/calibre-2.83.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-text/xmlto-0.0.28-r1 text
+
+sys-apps/pacman curl gpg
+mail-client/thunderbird ldap
+
+# required by app-editors/neovim-0.2.0::gentoo
+# required by neovim (argument)
+>=dev-lua/mpack-1.0.4 luajit
+# required by app-editors/neovim-0.2.0::gentoo
+# required by neovim (argument)
+>=dev-lua/lpeg-1.0.1 luajit
+

@@ -1,0 +1,15 @@
+# required by =net-libs/nghttp2-9999 (argument)
+=net-libs/nghttp2-9999 **
+
+# required by purple-hangouts (argument)
+=net-im/purple-hangouts-9999 **
+
+
+# required by =x11-plugins/pidgin-skypeweb-9999 (argument)
+=x11-plugins/pidgin-skypeweb-9999 **
+
+# required by media-sound/nuvolaplayer::sabayon (argument)
+=media-sound/nuvolaplayer-9999 **
+
+# required by vw (argument)
+=sci-misc/vw-9999 **

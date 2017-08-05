@@ -1,0 +1,3 @@
+CFLAGS="-O3 -pipe -march=native -fomit-frame-pointer"
+CXXFLAGS="${CFLAGS}"
+MAKEOPTS="-j5"

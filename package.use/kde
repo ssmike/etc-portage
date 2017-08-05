@@ -1,0 +1,187 @@
+# required by dev-qt/qtdeclarative-4.8.7::gentoo
+# required by kde-frameworks/kdelibs-4.14.29::gentoo
+# required by kde-plasma/qguiplatformplugin_kde-4.11.22::gentoo
+# required by kde-plasma/plasma-desktop-5.9.2::gentoo[qt4]
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtopengl-4.8.7:4 qt3support
+# required by kde-apps/rocs-16.12.2::gentoo
+# required by kde-apps/kdeedu-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtscript-5.7.1 scripttools
+# required by kde-apps/kdenlive-16.12.2::gentoo
+# required by kde-apps/kdemultimedia-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-libs/mlt-6.4.1-r1 xml sdl qt5 melt kdenlive
+# required by virtual/ffmpeg-9-r2::gentoo[-libav]
+# required by kde-apps/kdenlive-16.12.2::gentoo
+# required by kde-apps/kdemultimedia-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-video/ffmpeg-3.2.4 sdl
+# required by kde-apps/okular-16.12.2::gentoo[crypt]
+# required by kde-apps/kdegraphics-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=app-crypt/qca-2.1.1-r1 qt5
+# required by sci-chemistry/chemical-mime-data-0.1.94-r3::gentoo
+# required by kde-apps/kalzium-16.12.2::gentoo
+# required by kde-apps/kdeedu-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=gnome-base/librsvg-2.40.16 tools
+# required by kde-apps/kanagram-16.12.2::gentoo
+# required by kde-apps/kdeedu-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtmultimedia-5.7.1 qml
+# required by kde-plasma/plasma-pa-5.9.2::gentoo
+# required by kde-plasma/plasma-meta-5.9.2::gentoo[pulseaudio]
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-sound/pulseaudio-10.0 gnome
+# required by kde-apps/kdenlive-16.12.2::gentoo
+# required by kde-apps/kdemultimedia-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=virtual/ffmpeg-9-r2 sdl
+# required by kde-plasma/kwin-5.9.2::gentoo
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-libs/mesa-17.0.0 wayland
+# required by kde-apps/ktp-common-internals-16.12.2::gentoo
+# required by kde-apps/ktp-contact-list-16.12.2::gentoo
+# required by kde-apps/plasma-telepathy-meta-16.12.2::gentoo
+# required by kde-apps/kdenetwork-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=net-libs/telepathy-qt-0.9.7 qt5
+# required by kde-frameworks/knotifications-5.31.0::gentoo[dbus]
+# required by kde-apps/kcalc-16.12.2::gentoo
+# required by kde-apps/kdeutils-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20160218 qt5
+# required by kde-apps/ktp-text-ui-16.12.2::gentoo
+# required by kde-apps/plasma-telepathy-meta-16.12.2::gentoo
+# required by kde-apps/kdenetwork-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=kde-apps/ktp-common-internals-16.12.2 otr
+# required by kde-frameworks/kwayland-5.31.0::gentoo
+# required by kde-plasma/powerdevil-5.9.2::gentoo
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtwayland-5.7.1 egl
+# required by dev-qt/qtdeclarative-4.8.7::gentoo
+# required by kde-frameworks/kdelibs-4.14.29::gentoo
+# required by kde-plasma/qguiplatformplugin_kde-4.11.22::gentoo
+# required by kde-plasma/plasma-desktop-5.9.2::gentoo[qt4]
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtsql-4.8.7-r1:4 qt3support
+# required by kde-frameworks/kdelibs-4.14.29::gentoo
+# required by kde-plasma/qguiplatformplugin_kde-4.11.22::gentoo
+# required by kde-plasma/plasma-desktop-5.9.2::gentoo[qt4]
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtdeclarative-4.8.7:4 qt3support
+# required by media-libs/phonon-vlc-0.9.0::gentoo
+>=media-libs/phonon-4.9.1 qt5
+# required by kde-apps/okular-16.12.2::gentoo[pdf]
+# required by kde-apps/kdegraphics-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=app-text/poppler-0.51.0 qt5
+# required by dev-qt/qtgui-4.8.7::gentoo
+# required by dev-qt/qt3support-4.8.7::gentoo
+# required by kde-plasma/qguiplatformplugin_kde-4.11.22::gentoo
+# required by kde-plasma/plasma-desktop-5.9.2::gentoo[qt4]
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtcore-4.8.7-r2:4 qt3support
+# required by dev-qt/qtopengl-4.8.7::gentoo
+# required by kde-frameworks/kdelibs-4.14.29::gentoo[opengl]
+# required by kde-plasma/qguiplatformplugin_kde-4.11.22::gentoo
+# required by kde-plasma/plasma-desktop-5.9.2::gentoo[qt4]
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtgui-4.8.7:4 qt3support
+# required by media-libs/phonon-4.9.1::gentoo[vlc]
+# required by kde-apps/ksirk-16.12.2::gentoo
+# required by kde-apps/kdegames-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-libs/phonon-vlc-0.9.0 qt5
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.31.0::gentoo
+# required by kde-plasma/powerdevil-5.9.2::gentoo
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtgui-5.7.1 egl
+# required by kde-plasma/polkit-kde-agent-5.9.2::gentoo
+# required by kde-frameworks/kdelibs-4.14.29::gentoo[policykit]
+# required by kde-plasma/qguiplatformplugin_kde-4.11.22::gentoo
+# required by kde-plasma/plasma-desktop-5.9.2::gentoo[qt4]
+# required by kde-plasma/plasma-meta-5.9.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=sys-auth/polkit-qt-0.112.0-r1 qt5
+# required by kde-apps/kwave-16.12.2-r1::gentoo
+# required by kde-apps/kdemultimedia-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=virtual/imagemagick-tools-0 svg
+# required by kde-apps/konqueror-16.12.2::gentoo
+# required by kde-apps/kdecore-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=dev-qt/qtwebengine-5.7.1-r1 widgets
+# required by virtual/imagemagick-tools-0::gentoo
+# required by kde-apps/kwave-16.12.2-r1::gentoo
+# required by kde-apps/kdemultimedia-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-gfx/imagemagick-6.9.7.6 svg
+# required by kde-apps/artikulate-16.12.2::gentoo[gstreamer]
+# required by kde-apps/kdeedu-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-libs/qt-gstreamer-1.2.0-r2 qt5
+# required by media-libs/phonon-vlc-0.9.0::gentoo
+# required by media-libs/phonon-4.9.1::gentoo[vlc]
+# required by kde-apps/ksirk-16.12.2::gentoo
+# required by kde-apps/kdegames-meta-16.12.2::gentoo
+# required by kde-apps/kde-apps-meta-16.12.2::gentoo
+# required by kde-apps/kde-meta-16.12.2::gentoo
+# required by kde-meta (argument)
+>=media-video/vlc-2.2.4-r1 ogg
+
+>=media-libs/phonon-4.9.0 qt5
+

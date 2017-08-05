@@ -1,0 +1,53 @@
+# required by net-misc/gnome-online-miners-3.22.0::gentoo
+# required by gnome-extra/gnome-documents-3.22.0::gentoo
+# required by gnome-base/gnome-extra-apps-3.22.0::gentoo[tracker]
+# required by gnome-base/gnome-3.22.0::gentoo[extras]
+# required by gnome (argument)
+>=dev-libs/libgdata-0.17.6 gnome-online-accounts
+# required by media-sound/sound-juicer-3.22.1::gentoo
+# required by gnome-base/gnome-extra-apps-3.22.0::gentoo
+# required by gnome-base/gnome-3.22.0::gentoo[extras]
+# required by gnome (argument)
+>=gnome-base/gvfs-1.30.3 cdda
+
+
+# required by dev-libs/folks-0.11.3::gentoo[eds]
+# required by net-im/empathy-3.12.12::gentoo
+# required by gnome-base/gnome-core-apps-3.22.0::gentoo
+# required by gnome-base/gnome-3.22.0::gentoo
+# required by gnome (argument)
+>=gnome-extra/evolution-data-server-3.22.4 vala
+# required by media-gfx/gnome-photos-3.22.3::gentoo
+# required by gnome-base/gnome-extra-apps-3.22.0::gentoo[tracker]
+# required by gnome-base/gnome-3.22.0::gentoo[extras]
+# required by gnome (argument)
+>=media-libs/gegl-0.3.12 raw jpeg2k
+# required by media-plugins/grilo-plugins-0.3.3::gentoo
+# required by media-sound/gnome-music-3.22.2::gentoo
+# required by gnome-base/gnome-extra-apps-3.22.0::gentoo[tracker]
+# required by gnome-base/gnome-3.22.0::gentoo[extras]
+# required by gnome (argument)
+>=media-libs/grilo-0.3.2 playlist
+# required by gnome-extra/gnome-contacts-3.22.1::gentoo
+# required by gnome-base/gnome-core-apps-3.22.0::gentoo
+# required by gnome-base/gnome-3.22.0::gentoo
+# required by gnome (argument)
+>=dev-libs/folks-0.11.3 eds
+# required by media-gfx/shotwell-0.24.3::gentoo
+# required by gnome-base/gnome-extra-apps-3.22.0::gentoo[shotwell]
+# required by gnome-base/gnome-3.22.0::gentoo[extras]
+# required by gnome (argument)
+>=virtual/libgudev-230 introspection
+# required by media-gfx/gnome-photos-3.22.3::gentoo
+# required by gnome-base/gnome-extra-apps-3.22.0::gentoo[tracker]
+# required by gnome-base/gnome-3.22.0::gentoo[extras]
+# required by gnome (argument)
+>=media-plugins/grilo-plugins-0.3.3 upnp-av tracker
+# required by virtual/libgudev-230::gentoo
+# required by media-gfx/shotwell-0.24.3::gentoo
+# required by gnome-base/gnome-extra-apps-3.22.0::gentoo[shotwell]
+# required by gnome-base/gnome-3.22.0::gentoo[extras]
+# required by gnome (argument)
+>=dev-libs/libgudev-230-r1 introspection
+
+gnome-base/gnome -extras

@@ -1,0 +1,3 @@
+CFLAGS="-O2 -pipe -march=native -fomit-frame-pointer -fno-strict-aliasing"
+CXXFLAGS="${CFLAGS}"
+

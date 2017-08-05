@@ -1,0 +1,82 @@
+sci-libs/hdf5 -cxx -fortran
+dev-lang/python tk
+>=dev-java/swing-layout-1.0.4 source
+dev-libs/boost doc tools 
+dev-python/jedi python2_7 python3_3
+dev-lang/python:2.7 sqlite
+dev-libs/boost mpi
+dev-util/valgrind mpi
+app-editors/gvim python
+dev-db/sqlite doc
+dev-haskell/* haddock doc profile
+dev-lang/ghc doc
+dev-java/icedtea-bin doc
+dev-java/oracle-jdk-bin doc
+sys-devel/gdb expat multitarget lzma python
+dev-vcs/git tk
+dev-db/sqlite secure-delete
+dev-lang/rust-bin vim-syntax zsh-completion
+dev-qt/qtwebkit printsupport
+dev-lang/scala doc
+
+# required by dev-python/pytables-3.1.1-r2::gentoo
+# required by dev-python/pandas-0.15.2::gentoo
+# required by dev-python/bokeh-0.7.1::gentoo
+# required by bokeh (argument)
+>=dev-libs/c-blosc-1.3.5 hdf5
+# required by sci-libs/scipy-0.15.1::gentoo
+# required by dev-python/pandas-0.15.2::gentoo
+# required by dev-python/bokeh-0.7.1::gentoo
+# required by bokeh (argument)
+>=dev-python/numpy-1.9.0-r1 lapack
+
+# required by dev-qt/qtwidgets-5.5.0::qt
+# required by dev-qt/qtdeclarative-5.5.0::qt[widgets]
+# required by dev-qt/qt-creator-3.4.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtgui-5.5.0 -gtkstyle
+
+app-text/texlive extra luatex pstricks omega xetex graphics
+
+sys-cluster/openmpi mpi-threads
+
+dev-python/ipython notebook matplotlib nbconvert
+dev-python/sympy ipython latex
+
+# required by sci-libs/scikits_image-0.10.1::gentoo
+# required by scikits_image (argument)
+>=sci-libs/scipy-0.15.1 sparse
+
+dev-python/numpy doc
+dev-python/sympy doc
+sci-libs/scipy doc
+dev-haskell/* doc hoogle hscolour
+dev-haskell/haddock-api -doc
+dev-haskell/hoogle fetchdb fetchdb-ghc localdb
+
+dev-java/icedtea -webstart
+
+dev-python/django doc
+app-emulation/docker lxc overlay -btrfs
+
+sys-libs/ncurses tinfo
+app-emulation/docker -device-mapper
+
+# required by app-emulation/docker-1.13.0_rc1::docker[container-init]
+# required by @selected
+# required by @world (argument)
+>=sys-process/tini-0.13.0 static
+
+# required by app-emulation/lxd-2.5::gentoo[daemon]
+# required by lxd (argument)
+>=app-emulation/lxc-2.0.6-r1 cgmanager
+
+
+app-emulation/docker experimental
+
+app-doc/doxygen clang latex dot doxysearch
+app-text/asciidoc python_single_target_python2_7
+dev-java/oracle-jdk-bin commercial
+
+app-editors/neovim python
