@@ -10,4 +10,4 @@ app-portage/layman sync-plugin-portage
 # required by @world (argument)
 >=media-libs/mesa-11.2.2 gles2
 
-#dev-util/meson -python_targets_python3_5 python_targets_python3_6
+sys-kernel/gentoo-sources experimental
