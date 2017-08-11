@@ -341,3 +341,7 @@ mail-client/thunderbird ldap
 # required by neovim (argument)
 >=dev-lua/lpeg-1.0.1 luajit
 
+# required by app-office/libreoffice-5.4.0.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/xmlsec-1.2.24 nss
