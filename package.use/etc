@@ -158,7 +158,7 @@ www-client/w3m fbcon
 
 games-util/steam-client-meta streaming
 
-app-emulation/wine staging
+app-emulation/wine staging openal s3tc
 >=app-text/texlive-core-2010 xetex
 dev-vcs/mercurial tk
 
