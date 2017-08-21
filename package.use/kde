@@ -174,14 +174,6 @@
 # required by kde-apps/kde-meta-16.12.2::gentoo
 # required by kde-meta (argument)
 >=media-libs/qt-gstreamer-1.2.0-r2 qt5
-# required by media-libs/phonon-vlc-0.9.0::gentoo
-# required by media-libs/phonon-4.9.1::gentoo[vlc]
-# required by kde-apps/ksirk-16.12.2::gentoo
-# required by kde-apps/kdegames-meta-16.12.2::gentoo
-# required by kde-apps/kde-apps-meta-16.12.2::gentoo
-# required by kde-apps/kde-meta-16.12.2::gentoo
-# required by kde-meta (argument)
->=media-video/vlc-2.2.4-r1 ogg
 
 >=media-libs/phonon-4.9.0 qt5
 
