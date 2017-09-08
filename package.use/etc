@@ -330,3 +330,5 @@ mail-client/thunderbird ldap
 # required by @selected
 # required by @world (argument)
 >=dev-libs/xmlsec-1.2.24 nss
+
+sys-apps/the_silver_searcher lzma
