@@ -41,9 +41,6 @@ app-text/texlive extra luatex pstricks omega xetex graphics
 
 sys-cluster/openmpi mpi-threads
 
-dev-python/ipython notebook matplotlib nbconvert
-dev-python/sympy ipython latex
-
 # required by sci-libs/scikits_image-0.10.1::gentoo
 # required by scikits_image (argument)
 >=sci-libs/scipy-0.15.1 sparse
@@ -57,6 +54,7 @@ dev-haskell/hoogle fetchdb fetchdb-ghc localdb
 
 dev-java/icedtea -webstart
 
+dev-python/netaddr -cli
 dev-python/django doc
 app-emulation/docker lxc overlay -btrfs
 
