@@ -78,3 +78,5 @@ app-text/asciidoc python_single_target_python2_7
 dev-java/oracle-jdk-bin commercial
 
 app-editors/neovim python
+
+net-analyzer/nmap ncat
