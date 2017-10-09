@@ -336,3 +336,11 @@ sys-apps/the_silver_searcher lzma
 media-libs/a52dec djbfft
 
 www-client/chromium widevine
+
+# required by dev-qt/qtcore-5.9.2::qt
+# required by dev-qt/qtxml-5.9.2::qt
+# required by dev-qt/linguist-tools-5.9.2::qt
+# required by net-p2p/qbittorrent-3.3.12::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre2-10.30 pcre16
