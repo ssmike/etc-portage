@@ -353,3 +353,5 @@ www-client/chromium widevine
 >=media-libs/gst-plugins-bad-1.12.3 egl
 
 app-crypt/gnupg tools
+
+www-client/yandex-browser-beta ffmpeg-codecs
