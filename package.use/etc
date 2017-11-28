@@ -344,3 +344,12 @@ www-client/chromium widevine
 # required by @selected
 # required by @world (argument)
 >=dev-libs/libpcre2-10.30 pcre16
+
+# required by net-libs/webkit-gtk-2.18.1::gentoo[gstreamer]
+# required by gnome-extra/sushi-3.24.0::gentoo
+# required by gnome-base/nautilus-3.24.2.1::gentoo[previewer]
+# required by @selected
+# required by @world (argument)
+>=media-libs/gst-plugins-bad-1.12.3 egl
+
+app-crypt/gnupg tools
