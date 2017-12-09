@@ -355,3 +355,5 @@ www-client/chromium widevine
 app-crypt/gnupg tools
 
 www-client/yandex-browser-beta ffmpeg-codecs
+
+net-fs/samba addc python gnutls
