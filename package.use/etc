@@ -293,7 +293,7 @@ gnome-base/nautilus tracker
 # required by @world (argument)
 >=dev-qt/qtlockedfile-2.4.1_p20150629 qt5
 
-www-client/chromium -suid
+www-client/chromium -suid tcmalloc
 
 # required by app-shells/fish-2.5.0::gentoo
 # required by fish (argument)
@@ -354,6 +354,7 @@ www-client/chromium widevine
 
 app-crypt/gnupg tools
 
-www-client/yandex-browser-beta ffmpeg-codecs
+www-client/chromium system-icu system-libvpx
+www-client/firefox system-libvpx system-harfbuzz
 
 net-fs/samba addc python gnutls
