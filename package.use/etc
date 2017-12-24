@@ -24,7 +24,7 @@ net-dns/avahi autoipd utils
 #x11-libs/libdrm libkms
 
 gnome-base/gvfs samba
-media-video/vlc fontconfig libass -qt5 -ncurses dts wma-fixed a52 vnc ogg xml mp3
+media-video/vlc fontconfig libass -ncurses dts wma-fixed a52 vnc ogg xml mp3
 
 #required by deluge
 dev-libs/boost python
@@ -135,8 +135,6 @@ mail-client/mutt smtp
 # required by qtox (argument)
 >=media-video/ffmpeg-2.6.3 webp
 
-media-libs/libechonest qt4
-
 >=media-video/mpv-0.9.2-r1 libmpv
 
 www-client/w3m fbcon
@@ -216,8 +214,6 @@ net-im/telegram-cli -lua
 # required by app-text/zathura-meta-0::gentoo[pdf]
 # required by app-text/zathura-meta (argument)
 >=app-text/poppler-0.45.0 cairo
-
-net-p2p/qbittorrent -qt5 qt4
 
 # required by www-client/chromium-54.0.2840.34::gentoo
 # required by chromium (argument)
@@ -358,3 +354,5 @@ www-client/chromium system-icu system-libvpx
 www-client/firefox system-libvpx system-harfbuzz
 
 net-fs/samba addc python gnutls
+
+media-libs/libmediaart -qt5
