@@ -356,3 +356,5 @@ www-client/firefox system-libvpx system-harfbuzz
 net-fs/samba addc python gnutls
 
 media-libs/libmediaart -qt5
+
+mail-client/mutt imap -lmdb berkdb -gdbm -qdbm -tokyokabinet
