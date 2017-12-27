@@ -11,3 +11,5 @@ app-portage/layman sync-plugin-portage
 >=media-libs/mesa-11.2.2 gles2
 
 sys-kernel/gentoo-sources experimental
+
+sys-boot/grub mount
