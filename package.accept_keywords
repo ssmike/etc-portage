@@ -13,3 +13,6 @@
 
 # required by vw (argument)
 =sci-misc/vw-9999 **
+
+# required by xkb-switch (argument)
+=x11-misc/xkb-switch-9999 **
