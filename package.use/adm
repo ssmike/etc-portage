@@ -13,3 +13,6 @@ app-portage/layman sync-plugin-portage
 sys-kernel/gentoo-sources experimental
 
 sys-boot/grub mount
+
+sys-firmware/intel-microcode initramfs
+sys-kernel/gentoo-sources symlink
