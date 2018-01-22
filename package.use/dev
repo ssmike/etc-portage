@@ -4,8 +4,6 @@ dev-lang/python tk
 dev-libs/boost doc tools 
 dev-python/jedi python2_7 python3_3
 dev-lang/python:2.7 sqlite
-dev-libs/boost mpi
-dev-util/valgrind mpi
 app-editors/gvim python
 dev-db/sqlite doc
 dev-haskell/* haddock doc profile
@@ -38,8 +36,6 @@ dev-lang/scala doc
 >=dev-qt/qtgui-5.5.0 -gtkstyle
 
 app-text/texlive extra luatex pstricks omega xetex graphics
-
-sys-cluster/openmpi mpi-threads
 
 # required by sci-libs/scikits_image-0.10.1::gentoo
 # required by scikits_image (argument)
