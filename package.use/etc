@@ -351,7 +351,7 @@ www-client/chromium widevine
 app-crypt/gnupg tools
 
 www-client/chromium system-icu system-libvpx
-www-client/firefox system-libvpx system-harfbuzz
+www-client/firefox system-libvpx system-harfbuzz wifi
 
 net-fs/samba addc python gnutls
 
