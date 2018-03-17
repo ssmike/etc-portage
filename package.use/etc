@@ -367,3 +367,5 @@ mail-client/mutt imap -lmdb berkdb -gdbm -qdbm -tokyokabinet
 # required by app-emulation/wine-d3d9-2.21::gentoo
 # required by wine-d3d9 (argument)
 >=media-libs/mesa-18.0.0_rc4 d3d9
+
+app-emulation/wine-any s3tc dos
