@@ -16,3 +16,5 @@ sys-boot/grub mount
 
 sys-firmware/intel-microcode initramfs
 sys-kernel/gentoo-sources symlink
+
+sys-apps/nix sodium
