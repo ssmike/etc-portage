@@ -51,3 +51,6 @@
 >=dev-libs/libgudev-230-r1 introspection
 
 gnome-base/gnome -extras
+
+gnome-base/nautilus gnome
+net-libs/gnome-online-accounts gnome
