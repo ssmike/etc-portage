@@ -129,7 +129,6 @@ x11-themes/qtcurve windeco
 app-office/libreoffice vlc java
 
 kde-plasma/plasma-desktop legacy-systray
-mail-client/mutt smtp
 
 # required by net-im/qtox-9999::tox-overlay
 # required by qtox (argument)
@@ -274,8 +273,6 @@ dev-libs/efl sound
 # required by orion (argument)
 >=dev-qt/qtwebchannel-5.7.1 qml
 
-mail-client/mutt imap -berkdb
-
 media-video/ffmpeg fdk
 gnome-base/nautilus tracker
 
@@ -357,7 +354,7 @@ net-fs/samba gnutls
 
 media-libs/libmediaart -qt5
 
-mail-client/mutt imap -lmdb berkdb -gdbm -qdbm -tokyokabinet
+mail-client/mutt imap -lmdb berkdb -gdbm -qdbm -tokyokabinet smtp gpgme
 
 # required by x11-wm/i3-4.14.1::gentoo
 # required by x11-misc/i3blocks-1.4-r1::gentoo
