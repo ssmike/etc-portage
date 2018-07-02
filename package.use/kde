@@ -177,3 +177,8 @@
 
 >=media-libs/phonon-4.9.0 qt5
 
+kde-plasma/plasma-meta legacy-systray gtk
+
+kde-apps/dolphin thumbnail
+
+app-arch/p7zip wxwidgets
