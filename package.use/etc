@@ -367,6 +367,8 @@ mail-client/mutt imap -lmdb berkdb -gdbm -qdbm -tokyokabinet smtp gpgme
 
 app-emulation/wine-any s3tc dos
 
+media-video/vlc dvd
+
 # required by net-mail/notmuch-0.26.1::gentoo[crypt]
 # required by notmuch (argument)
 >=dev-libs/gmime-2.6.23:2.6 smime
