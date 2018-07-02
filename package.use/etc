@@ -366,3 +366,10 @@ mail-client/mutt imap -lmdb berkdb -gdbm -qdbm -tokyokabinet smtp gpgme
 >=media-libs/mesa-18.0.0_rc4 d3d9
 
 app-emulation/wine-any s3tc dos
+
+# required by net-mail/notmuch-0.26.1::gentoo[crypt]
+# required by notmuch (argument)
+>=dev-libs/gmime-2.6.23:2.6 smime
+
+net-mail/notmuch mutt
+mail-client/mutt notmuch
