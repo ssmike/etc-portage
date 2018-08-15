@@ -1,3 +1,3 @@
 # segfault
 =app-admin/conky-1.10.7
->=sys-libs/ncurses-6.1
+=media-libs/mesa-18.2.0_rc2
