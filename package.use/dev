@@ -6,7 +6,7 @@ dev-python/jedi python2_7 python3_3
 dev-lang/python:2.7 sqlite
 app-editors/gvim python
 dev-db/sqlite doc
-dev-haskell/* haddock doc profile
+dev-haskell/* haddock doc
 dev-lang/ghc doc
 dev-java/icedtea-bin doc
 dev-java/oracle-jdk-bin doc
@@ -44,7 +44,6 @@ app-text/texlive extra luatex pstricks omega xetex graphics
 dev-python/numpy doc
 dev-python/sympy doc
 sci-libs/scipy doc
-dev-haskell/* doc hoogle hscolour
 dev-haskell/haddock-api -doc
 dev-haskell/hoogle fetchdb fetchdb-ghc localdb
 
