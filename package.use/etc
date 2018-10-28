@@ -375,3 +375,7 @@ media-video/vlc dvd
 
 net-mail/notmuch mutt
 mail-client/mutt notmuch
+
+app-editors/emacs xft
+
+media-video/ffmpeg -samba
