@@ -1,0 +1,3 @@
+CFLAGS="${CFLAGS} -flto"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="${LDFLAGS} -flto"
