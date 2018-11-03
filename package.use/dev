@@ -79,3 +79,5 @@ net-analyzer/nmap ncat
 net-libs/libtirpc static-libs
 
 dev-cpp/eigen c++11 doc
+
+app-editors/emacs xft

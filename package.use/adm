@@ -18,3 +18,5 @@ sys-firmware/intel-microcode initramfs
 sys-kernel/gentoo-sources symlink
 
 sys-apps/nix sodium
+
+x11-drivers/nvidia-drivers compat
