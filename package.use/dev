@@ -81,3 +81,7 @@ net-libs/libtirpc static-libs
 dev-cpp/eigen c++11 doc
 
 net-analyzer/wireshark sshdump
+
+sys-devel/gcc pgo
+
+www-client/firefox geckodriver
