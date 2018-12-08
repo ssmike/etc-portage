@@ -361,10 +361,6 @@ mail-client/mutt imap -lmdb berkdb -gdbm -qdbm -tokyokabinet smtp gpgme
 # required by i3blocks (argument)
 >=x11-libs/cairo-1.14.12 xcb
 
-# required by app-emulation/wine-d3d9-2.21::gentoo
-# required by wine-d3d9 (argument)
->=media-libs/mesa-18.0.0_rc4 d3d9
-
 app-emulation/wine-any s3tc dos
 
 media-video/vlc dvd
@@ -379,3 +375,5 @@ mail-client/mutt notmuch
 app-editors/emacs xft
 
 media-video/ffmpeg -samba
+
+x11-terms/kitty imagemagick
