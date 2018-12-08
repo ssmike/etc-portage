@@ -8,9 +8,7 @@ app-editors/gvim python
 dev-db/sqlite doc
 dev-haskell/* haddock doc
 dev-lang/ghc doc
-dev-java/icedtea-bin doc
-dev-java/oracle-jdk-bin doc
-sys-devel/gdb expat multitarget lzma python
+sys-devel/gdb expat multitarget lzma python xml
 dev-vcs/git tk
 dev-db/sqlite secure-delete
 dev-lang/rust-bin vim-syntax zsh-completion
@@ -70,7 +68,6 @@ app-emulation/docker experimental
 
 app-doc/doxygen clang latex dot doxysearch
 app-text/asciidoc python_single_target_python2_7
-dev-java/oracle-jdk-bin commercial
 
 app-editors/neovim python
 
@@ -85,3 +82,6 @@ net-analyzer/wireshark sshdump
 sys-devel/gcc pgo
 
 www-client/firefox geckodriver
+
+dev-java/openjdk gentoo-vm
+dev-java/openjdk-bin gentoo-vm
