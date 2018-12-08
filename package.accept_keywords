@@ -16,3 +16,5 @@
 
 # required by xkb-switch (argument)
 =x11-misc/xkb-switch-9999 **
+
+=app-editors/neovim-9999 **
