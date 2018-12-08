@@ -1,0 +1,3 @@
+CFLAGS="-O2 -pipe -march=native -fomit-frame-pointer"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
