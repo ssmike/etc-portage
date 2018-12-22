@@ -1,0 +1,2 @@
+CFLAGS="-O2 -pipe -march=native -fomit-frame-pointer -I/usr/include/freetype2/"
+LDFLAGS="-lfreetype"

@@ -19,3 +19,6 @@
 
 =sys-power/bbswitch-9999 **
 =x11-misc/bumblebee-9999 **
+
+# required by =app-editors/neovim-9999 (argument)
+=app-editors/neovim-9999 **
