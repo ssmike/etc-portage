@@ -20,3 +20,8 @@ sys-kernel/gentoo-sources symlink
 sys-apps/nix sodium
 
 x11-drivers/nvidia-drivers compat
+
+# required by sys-apps/nix-2.2.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/boost-1.70.0 context

@@ -81,3 +81,13 @@ net-libs/libtirpc static-libs
 dev-cpp/eigen c++11 doc
 
 app-editors/emacs xft
+
+app-emulation/qemu vte numa spice pmem
+
+# required by app-editors/neovim-9999::gentoo
+# required by app-editors/neovim-qt-0.2.10::mike-overlay
+# required by @selected
+# required by @world (argument)
+>=dev-lua/luv-1.32.0.0 luajit
+
+sys-apps/systemd cgroup-hybrid

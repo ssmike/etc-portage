@@ -22,3 +22,6 @@
 
 # required by =app-editors/neovim-9999 (argument)
 =app-editors/neovim-9999 **
+
+=x11-plugins/purple-vk-plugin-9999 **
+=x11-plugins/whatsapp-purple-9999 **

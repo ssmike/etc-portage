@@ -348,7 +348,7 @@ www-client/chromium widevine
 app-crypt/gnupg tools
 
 www-client/chromium system-icu system-libvpx
-www-client/firefox system-libvpx system-harfbuzz wifi
+www-client/firefox system-libvpx system-harfbuzz wifi lto xvfb
 
 net-fs/samba gnutls
 
@@ -375,3 +375,37 @@ mail-client/mutt notmuch
 app-laptop/tlp tlp_suggests
 
 media-video/ffmpeg -samba
+
+dde-base/dde-meta multimedia
+
+# required by www-client/firefox-65.0::gentoo[pgo]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-1.20.3 xvfb
+
+# required by x11-misc/bumblebee-9999::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-1.20.3 glamor
+#
+# required by dev-qt/qtwebengine-5.11.3::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-libs/libvpx-1.5.0 svc
+
+# required by kde-plasma/xdg-desktop-portal-kde-5.15.2::gentoo
+# required by kde-plasma/plasma-meta-5.15.2::gentoo[desktop-portal]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtprintsupport-5.11.3 cups
+
+# required by app-crypt/seahorse-3.30.1.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gcr-3.28.1 vala
+
+media-gfx/fontforge gtk cairo
+
+dev-python/PyQt5 webengine webchannel
+=app-editors/retext-7.0.4 -python_targets_python3_6
+
+kde-apps/kio-extras -sftp
