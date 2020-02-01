@@ -377,3 +377,32 @@ app-editors/emacs xft
 media-video/ffmpeg -samba
 
 x11-terms/kitty imagemagick
+
+net-misc/iputils tracepath
+
+# required by kde-plasma/xdg-desktop-portal-kde-5.15.2::gentoo
+# required by kde-plasma/plasma-meta-5.15.2::gentoo[desktop-portal]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtprintsupport-5.12.1 cups
+
+media-gfx/fontforge cairo
+
+# required by app-cdr/xfburn-0.5.5-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=xfce-base/exo-0.12.8 gtk2
+# required by dev-python/PyQtWebEngine-5.13.2_pre1909181828::gentoo
+# required by app-text/calibre-4.2.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/PyQt5-5.13.1 webchannel
+
+# required by dev-qt/qtwebengine-5.12.5::gentoo
+# required by dev-python/PyQtWebEngine-5.13.2_pre1909181828::gentoo
+# required by app-text/calibre-4.2.0::gentoo
+# required by @selected
+# required by @world (argument)
+=media-libs/libvpx-1.5.0 svc
+
+media-libs/libsdl2 gles
