@@ -1,5 +1,4 @@
 app-admin/conky mpd
-www-client/firefox system-cairo system-icu system-jpeg system-sqlite
 www-client/w3m imlib
 media-sound/clementine system-sqlite
 dev-java/oracle-jdk-bin nsplugin
@@ -348,7 +347,7 @@ www-client/chromium widevine
 app-crypt/gnupg tools
 
 www-client/chromium system-icu system-libvpx
-www-client/firefox system-libvpx system-harfbuzz wifi lto xvfb
+www-client/firefox wifi lto xvfb -system-cairo -system-libevent -system-icu -system-av1 -system-harfbuzz -system-sqlite -system-webp -system-jpeg -system-libvpx
 
 net-fs/samba gnutls
 
@@ -409,3 +408,14 @@ dev-python/PyQt5 webengine webchannel
 =app-editors/retext-7.0.4 -python_targets_python3_6
 
 kde-apps/kio-extras -sftp
+
+www-client/firefox -pgo
+
+media-sound/pulseaudio native-headset
+
+# required by dev-libs/elfutils-0.179::gentoo[bzip2]
+# required by virtual/libelf-3::gentoo
+# required by sys-kernel/gentoo-sources-5.6.2::gentoo[-build]
+# required by @selected
+# required by @world (argument)
+>=app-arch/bzip2-1.0.8 static-libs

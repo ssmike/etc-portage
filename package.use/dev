@@ -91,3 +91,5 @@ app-emulation/qemu vte numa spice pmem
 >=dev-lua/luv-1.32.0.0 luajit
 
 sys-apps/systemd cgroup-hybrid
+
+sys-devel/gcc doc
