@@ -1,1 +1,2 @@
 >=app-emulation/qemu-4.0.0-r3
+=dev-java/gradle-bin-6.0.1
