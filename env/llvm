@@ -1,2 +1,3 @@
-CFLAGS="-O2 -pipe" 
+CFLAGS="-O2 -pipe -O2 -pipe -march=native -fomit-frame-pointer -flto=8" 
 CXXFLAGS="${CFLAGS}"
+LDFLAGS="${LDFLAGS} ${CFLAGS} -Wl,--push-state -Wl,--no-as-needed -pthread -Wl,--pop-state"
