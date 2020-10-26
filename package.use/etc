@@ -405,4 +405,31 @@ media-gfx/fontforge cairo
 # required by @world (argument)
 =media-libs/libvpx-1.5.0 svc
 
-media-libs/libsdl2 gles
+media-libs/libsdl2 gles2
+media-gfx/imagemagick xml
+
+# required by kde-plasma/kwin-5.19.1::gentoo
+# required by kde-plasma/plasma-desktop-5.19.1::gentoo
+# required by kde-plasma/plasma-meta-5.19.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/kitemmodels-5.71.0 qml
+# required by dev-libs/elfutils-0.180::gentoo
+# required by dev-util/perf-5.7-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/zlib-1.2.11-r2 static-libs
+# required by dev-libs/elfutils-0.180::gentoo[bzip2]
+# required by dev-util/perf-5.7-r1::gentoo
+# required by @selected
+# required by @world (argument)
+app-arch/bzip2 static-libs
+
+dev-libs/boehm-gc cxx
+
+# required by kde-plasma/plasma-workspace-5.20.0::gentoo
+# required by kde-plasma/kdeplasma-addons-5.20.0::gentoo
+# required by kde-plasma/plasma-meta-5.20.0-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/prison-5.75.0 qml

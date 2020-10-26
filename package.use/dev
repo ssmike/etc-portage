@@ -109,3 +109,5 @@ sys-apps/systemd cgroup-hybrid
 # required by @selected
 # required by @world (argument)
 >=media-libs/babl-0.1.72 introspection
+
+dev-util/perf -gtk
