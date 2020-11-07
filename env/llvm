@@ -1,2 +1,1 @@
-CFLAGS="-O2 -pipe" 
-CXXFLAGS="${CFLAGS}"
+LDFLAGS="${LDFLAGS} -Wl,--no-as-needed"
