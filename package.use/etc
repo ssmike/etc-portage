@@ -419,3 +419,7 @@ media-sound/pulseaudio native-headset
 # required by @selected
 # required by @world (argument)
 >=app-arch/bzip2-1.0.8 static-libs
+
+# required by www-client/chromium-87.0.4280.47::gentoo
+# required by chromium (argument)
+>=net-libs/nodejs-14.14.0 inspector

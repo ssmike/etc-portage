@@ -93,3 +93,7 @@ app-emulation/qemu vte numa spice pmem
 sys-apps/systemd cgroup-hybrid
 
 sys-devel/gcc doc
+
+# required by sys-apps/nix-2.3.8::nix-guix[gc]
+# required by sys-apps/nix (argument)
+>=dev-libs/boehm-gc-8.0.4 cxx
