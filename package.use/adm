@@ -32,3 +32,7 @@ x11-drivers/nvidia-drivers compat
 # required by @selected
 # required by @world (argument)
 >=sys-libs/zlib-1.2.11-r2 static-libs
+
+# required by app-portage/pfl-3.1-r1::gentoo[network-cron]
+# required by app-portage/pfl (argument)
+>=sys-apps/util-linux-2.36 caps

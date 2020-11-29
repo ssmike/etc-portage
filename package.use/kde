@@ -182,3 +182,16 @@ kde-plasma/plasma-meta legacy-systray gtk
 kde-apps/dolphin thumbnail
 
 app-arch/p7zip wxwidgets
+
+# required by kde-plasma/plasma-workspace-5.20.3::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/prison-5.76.0 qml
+# required by kde-plasma/kwin-5.20.3::gentoo
+# required by kde-plasma/plasma-desktop-5.20.3::gentoo
+# required by kde-plasma/plasma-meta-5.20.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/kitemmodels-5.76.0 qml

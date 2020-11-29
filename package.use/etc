@@ -23,7 +23,7 @@ net-dns/avahi autoipd utils
 #x11-libs/libdrm libkms
 
 gnome-base/gvfs samba
-media-video/vlc fontconfig libass -ncurses dts wma-fixed a52 vnc ogg xml mp3
+media-video/vlc fontconfig libass -ncurses dts wma-fixed a52 vnc ogg xml mp3 upnp
 
 #required by deluge
 dev-libs/boost python
@@ -423,3 +423,8 @@ media-sound/pulseaudio native-headset
 # required by www-client/chromium-87.0.4280.47::gentoo
 # required by chromium (argument)
 >=net-libs/nodejs-14.14.0 inspector
+
+app-office/calligra calligra_features_stage
+# required by app-office/calligra-3.2.1-r1::gentoo[calligra_features_karbon]
+# required by calligra (argument)
+>=media-gfx/pstoedit-3.75 plotutils

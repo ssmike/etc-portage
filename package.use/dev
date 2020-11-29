@@ -97,3 +97,19 @@ sys-devel/gcc doc
 # required by sys-apps/nix-2.3.8::nix-guix[gc]
 # required by sys-apps/nix (argument)
 >=dev-libs/boehm-gc-8.0.4 cxx
+
+# required by dev-python/pyzmq-19.0.2::gentoo[-test]
+# required by dev-python/notebook-6.1.5::gentoo
+# required by dev-python/widgetsnbextension-3.5.1-r1::gentoo
+# required by dev-python/ipywidgets-7.5.1-r1::gentoo
+# required by dev-python/jupyter-1.0.0-r3::gentoo
+# required by dev-python/jupyter (argument)
+>=net-libs/zeromq-4.3.3 drafts
+# required by dev-python/qtconsole-4.7.7::gentoo
+# required by dev-python/ipython-7.19.0::gentoo[qt5]
+# required by dev-python/jupyter_console-6.1.0-r2::gentoo
+# required by dev-python/jupyter-1.0.0-r3::gentoo
+# required by dev-python/jupyter (argument)
+>=dev-python/QtPy-1.9.0-r2 printsupport gui svg
+
+dev-qt/qt-creator android
