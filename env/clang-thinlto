@@ -1,0 +1,7 @@
+#NJOBS=7
+#MAKEOPTS="-j7 -l7"
+CC="clang"
+CXX="clang++"
+CFLAGS="-O2 -pipe -march=native -fomit-frame-pointer -flto=thin"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="${LDFLAGS} ${CFLAGS}"
