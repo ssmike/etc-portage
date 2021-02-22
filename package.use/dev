@@ -112,4 +112,4 @@ sys-devel/gcc doc
 # required by dev-python/jupyter (argument)
 >=dev-python/QtPy-1.9.0-r2 printsupport gui svg
 
-dev-qt/qt-creator android
+sys-devel/llvm gold
