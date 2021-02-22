@@ -428,3 +428,18 @@ app-office/calligra calligra_features_stage
 # required by app-office/calligra-3.2.1-r1::gentoo[calligra_features_karbon]
 # required by calligra (argument)
 >=media-gfx/pstoedit-3.75 plotutils
+
+# required by sys-apps/flatpak-1.9.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-util/ostree-2020.8 curl
+
+media-libs/libmp4v2 utils
+
+net-wireless/bluez extra-tools test-programs deprecated
+
+# required by sys-apps/fwupd-1.5.5::gentoo
+# required by fwupd (argument)
+>=dev-libs/libjcat-0.1.5 pkcs7
+
+media-gfx/imagemagick xml
