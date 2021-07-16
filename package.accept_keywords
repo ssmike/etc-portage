@@ -16,7 +16,3 @@
 
 # required by xkb-switch (argument)
 =x11-misc/xkb-switch-9999 **
-
-# required by @selected
-# required by @world (argument)
-=net-p2p/qbittorrent-9999 **

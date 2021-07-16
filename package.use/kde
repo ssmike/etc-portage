@@ -182,3 +182,10 @@ kde-plasma/plasma-meta legacy-systray gtk
 kde-apps/dolphin thumbnail
 
 app-arch/p7zip wxwidgets
+
+# required by net-firewall/firewalld-0.9.1::gentoo[iptables,nftables]
+# required by kde-plasma/plasma-firewall-5.21.1::gentoo
+# required by kde-plasma/plasma-meta-5.21.1::gentoo[firewall]
+# required by @selected
+# required by @world (argument)
+>=net-firewall/nftables-0.9.8 json python xtables
