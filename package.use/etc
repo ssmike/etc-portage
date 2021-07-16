@@ -14,10 +14,8 @@ net-print/cups -usb
 
 # required by app-text/calibre-2.19.0
 # required by calibre (argument)
->=dev-python/PyQt5-5.4 widgets printsupport network webkit
+>=dev-python/PyQt5-5.4 widgets printsupport network
 
-media-libs/mediastreamer video
-net-libs/opal sipim
 net-dns/avahi autoipd utils
 
 #x11-libs/libdrm libkms
@@ -49,10 +47,6 @@ media-libs/gst-plugins-base theora
 
 >=dev-libs/elfutils-0.158 static-libs
 
-sys-block/gparted btrfs f2fs gtk hfs jfs ntfs reiser4 reiserfs xfs
-# required by net-misc/gtkvncviewer-0.4
-# required by net-misc/gtkvncviewer (argument)
-net-libs/gtk-vnc python
 # required by media-gfx/graphviz-2.26.3-r4
 # required by dev-haskell/graphviz-2999.16.0.0-r3::gentoo-haskell
 # required by dev-haskell/xdot-0.2.4.2-r1::gentoo-haskell
@@ -61,15 +55,10 @@ net-libs/gtk-vnc python
 media-libs/gd fontconfig
 # required by app-text/calibre-1.20
 # required by calibre (argument)
-dev-python/PyQt4 webkit
-
 # required by net-voip/ekiga-4.0.0-r1
 # required by ekiga (argument)
 >=net-libs/ptlib-2.10.10 wav
 
-# required by app-emulation/virt-manager-0.10.0-r2
-# required by virt-manager (argument)
->=app-emulation/libvirt-glib-0.1.7 python
 # required by app-emulation/virt-manager-0.10.0-r2[gtk]
 # required by virt-manager (argument)
 >=net-misc/spice-gtk-0.21 gtk3 python usbredir
@@ -90,40 +79,19 @@ kde-apps/dolphin-plugins git subversion mercurial
 # required by okular (argument)
 media-gfx/exiv2 xmp
 
-# required by x11-terms/terminator-0.96-r1
-# required by terminator (argument)
->=x11-libs/vte-0.28.2-r206:0 python
-# required by x11-terms/terminator-0.96-r1
-# required by terminator (argument)
->=dev-libs/keybinder-0.3.0-r200 python
-app-editors/vim-qt python
-=dev-python/PyQt4-4.11.1 script sql declarative
-net-im/qutim vkontakte jabber jingle qml irc webkit
 >=dev-qt/qt-mobility-1.2.2_p20130703-r1 multimedia
-x11-misc/dzen xft
-app-admin/conky wifi
-net-misc/wicd -gtk
 
 app-crypt/johntheripper cuda
 
 sys-apps/systemd sysv-utils
 app-portage/layman sync-plugin-portage
 
-app-doc/linuxfromscratch pdf
-
-x11-misc/sddm -upower
-www-plugins/adobe-flash -kde
 x11-themes/qtcurve windeco
 
 # required by www-client/chromium-43.0.2357.130::gentoo
 # required by @selected
 # required by @world (argument)
 >=media-libs/libvpx-1.4.0 postproc
-
-# required by media-libs/phonon-vlc-0.7.2::gentoo
-# required by media-libs/phonon-4.7.2::gentoo[vlc]
-# required by kde-frameworks/khtml-5.11.0::gentoo
-# required by @preserved-rebuild (argument)
 
 app-office/libreoffice vlc java
 
@@ -163,13 +131,6 @@ dev-java/antlr java
 
 app-editors/emacs toolkit-scroll-bars
 
-media-plugins/evas_generic_loaders  svg
-
-app-admin/conky -nvidia
-
-lxqt-base/lxqt-meta sddm powermanagement -filemanager admin
-xfce-extra/thunar-vcs-plugin -subversion
-
 x11-misc/xmonad-extras perwindow volume
 
 # required by net-im/skype-4.3.0.37-r6::gentoo
@@ -180,8 +141,6 @@ x11-misc/xmonad-extras perwindow volume
 # required by @selected
 # required by @world (argument)
 >=net-fs/samba-4.2.11 winbind
-
-net-im/telegram-cli -lua
 
 # required by net-fs/samba-4.2.11::gentoo
 # required by net-libs/libsoup-2.52.2::gentoo[samba]
@@ -246,8 +205,6 @@ net-im/telegram-cli -lua
 # required by gdm (argument)
 >=media-libs/clutter-1.26.0 egl
 
-dev-libs/efl sound
-
 # required by media-sound/nuvolaplayer-9999::mike-overlay
 # required by @selected
 # required by @world (argument)
@@ -273,7 +230,6 @@ dev-libs/efl sound
 >=dev-qt/qtwebchannel-5.7.1 qml
 
 media-video/ffmpeg fdk
-gnome-base/nautilus tracker
 
 # required by net-p2p/qbittorrent-3.3.10::gentoo
 # required by @selected
@@ -309,7 +265,6 @@ www-client/chromium -suid tcmalloc
 >=app-text/xmlto-0.0.28-r1 text
 
 sys-apps/pacman curl gpg
-mail-client/thunderbird ldap
 
 # required by app-editors/neovim-0.2.0::gentoo
 # required by neovim (argument)
@@ -405,9 +360,6 @@ dde-base/dde-meta multimedia
 media-gfx/fontforge gtk cairo
 
 dev-python/PyQt5 webengine webchannel
-=app-editors/retext-7.0.4 -python_targets_python3_6
-
-kde-apps/kio-extras -sftp
 
 www-client/firefox -pgo
 
@@ -443,3 +395,51 @@ net-wireless/bluez extra-tools test-programs deprecated
 >=dev-libs/libjcat-0.1.5 pkcs7
 
 media-gfx/imagemagick xml
+
+# required by dev-python/cython-0.29.23::gentoo
+# required by dev-python/lxml-4.6.3::gentoo
+# required by sys-apps/systemd-248::gentoo
+# required by sys-apps/util-linux-2.36.2::gentoo[systemd,-build]
+# required by dev-lang/python-3.9.5::gentoo
+# required by media-libs/mesa-21.1.0::gentoo
+# required by app-emulation/qemu-6.0.0::gentoo[-static,opengl]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-56.1.0 python_targets_python3_9
+
+# required by dev-python/setuptools_scm-6.0.1-r1::gentoo
+# required by dev-python/python-dateutil-2.8.1-r2::gentoo
+# required by app-text/calibre-5.16.1::gentoo[python_single_target_python3_8]
+# required by @selected
+# required by @world (argument)
+>=dev-python/toml-0.10.2 python_targets_python3_9
+
+# required by kde-misc/plasma-applet-weather-widget-1.6.10-r1::gentoo
+# required by plasma-applet-weather-widget (argument)
+>=dev-qt/qtxmlpatterns-5.15.2 qml
+
+# can't find cmake boost-python3.9 config
+net-libs/libtorrent-rasterbar -python
+
+# required by media-video/ffmpeg-4.4::gentoo[cuda]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.3::gentoo[ffmpeg]
+# required by kde-apps/kamoso-21.04.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/clang-12.0.0-r1 llvm_targets_NVPTX
+# required by sys-devel/clang-12.0.0-r1::gentoo[llvm_targets_NVPTX]
+# required by media-video/ffmpeg-4.4::gentoo[cuda]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.3::gentoo[ffmpeg]
+# required by kde-apps/kamoso-21.04.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/llvm-12.0.0 llvm_targets_NVPTX
+
+# required by x11-libs/pango-1.48.7-r1::gentoo
+# required by media-gfx/graphviz-2.47.3::gentoo[cairo]
+# required by kde-apps/kcachegrind-21.04.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.10.4 harfbuzz

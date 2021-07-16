@@ -2,7 +2,6 @@ sci-libs/hdf5 -cxx -fortran
 dev-lang/python tk
 >=dev-java/swing-layout-1.0.4 source
 dev-libs/boost doc tools 
-dev-python/jedi python2_7 python3_3
 dev-lang/python:2.7 sqlite
 app-editors/gvim python
 dev-db/sqlite doc
@@ -113,3 +112,20 @@ sys-devel/gcc doc
 >=dev-python/QtPy-1.9.0-r2 printsupport gui svg
 
 sys-devel/llvm gold
+
+net-firewall/firewalld -iptables
+
+# required by dev-python/mako-1.1.4::gentoo
+# required by media-libs/mesa-21.1.0::gentoo
+# required by net-libs/webkit-gtk-2.32.1::gentoo[egl]
+# required by games-util/lutris-0.5.8.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/markupsafe-2.0.0 python_targets_python3_9
+# required by dev-python/setuptools-56.2.0::gentoo[-python_targets_pypy3,python_targets_python3_9,python_targets_python3_8,-python_targets_python3_7]
+# required by dev-python/alabaster-0.7.12::gentoo
+# required by dev-python/sphinx-4.0.1-r1::gentoo
+# required by app-emulation/qemu-6.0.0::gentoo[doc]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools_scm-6.0.1-r1 python_targets_python3_9

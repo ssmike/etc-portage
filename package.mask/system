@@ -1,3 +1,2 @@
-# segfault
-=app-admin/conky-1.10.7
-=media-libs/mesa-18.2.0_rc2
+#>=sys-kernel/gentoo-sources-5.12 #bluetooth
+>=sys-kernel/gentoo-sources-5.13 #nvidia
