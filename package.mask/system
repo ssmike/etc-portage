@@ -1,2 +1,8 @@
 #>=sys-kernel/gentoo-sources-5.12 #bluetooth
->=sys-kernel/gentoo-sources-5.13 #nvidia
+>=sys-kernel/gentoo-sources-5.16 #nvidia
+#=sys-devel/llvm-13.0.0
+#=sys-devel/clang-13.0.0
+#=sys-devel/clang-runtime-13.0.0
+#=sys-libs/compiler-rt-13.0.0
+#=sys-libs/compiler-rt-sanitizers-13.0.0
+

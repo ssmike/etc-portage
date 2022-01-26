@@ -2,5 +2,11 @@
 =x11-wm/xmonad-contrib-0.12-r2
 =app-i18n/ibus-1.5.15
 =app-text/iso-codes-4.4
+=x11-base/xorg-server-1.20.12 # segfault on screen plug
 
 #>x11-drivers/nvidia-drivers-460.84
+
+#=x11-drivers/nvidia-drivers-470.57.02
+
+#>virtual/rust-1.55.0
+#>dev-lang/rust-bin-1.55.0

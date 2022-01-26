@@ -214,3 +214,48 @@ app-arch/p7zip wxwidgets
 # required by @selected
 # required by @world (argument)
 >=app-text/poppler-21.04.0 nss
+
+# required by kde-frameworks/qqc2-desktop-style-5.88.0::gentoo
+# required by kde-misc/kdeconnect-21.08.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/sonnet-5.88.0 qml
+
+kde-plasma/kde-cli-tools kdesu
+
+# required by kde-frameworks/qqc2-desktop-style-5.88.0::gentoo
+# required by kde-misc/kdeconnect-21.08.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/sonnet-5.88.0 qml
+
+# required by kde-frameworks/qqc2-desktop-style-5.88.0::gentoo
+# required by kde-misc/kdeconnect-21.08.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/sonnet-5.88.0 qml
+
+# required by kde-frameworks/qqc2-desktop-style-5.88.0::gentoo
+# required by kde-misc/kdeconnect-21.08.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/sonnet-5.88.0 qml
+
+# required by virtual/libcrypt-2::gentoo
+# required by dev-libs/cyrus-sasl-2.1.27-r6::gentoo
+# required by kde-apps/libksieve-21.08.3::gentoo
+# required by kde-apps/kdepim-addons-21.08.3::gentoo
+# required by kde-apps/kdepim-meta-21.08.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libxcrypt-4.4.26-r1 static-libs
+
+kde-apps/akonadi -mysql postgres
+
+# required by kde-plasma/xdg-desktop-portal-kde-5.23.4::gentoo
+# required by kde-plasma/plasma-meta-5.23.4::gentoo[desktop-portal]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtprintsupport-5.15.2-r11 cups
+
+kde-apps/kdepim-meta bogofilter spamassassin

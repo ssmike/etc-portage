@@ -50,10 +50,12 @@ dev-java/icedtea -webstart
 
 dev-python/netaddr -cli
 dev-python/django doc
-app-emulation/docker lxc overlay -btrfs
+# move app-emulation/docker app-containers/docker
+app-containers/docker lxc overlay -btrfs
 
 sys-libs/ncurses tinfo
-app-emulation/docker -device-mapper
+# move app-emulation/docker app-containers/docker
+app-containers/docker -device-mapper
 
 # required by app-emulation/docker-1.13.0_rc1::docker[container-init]
 # required by @selected
@@ -65,7 +67,8 @@ app-emulation/docker -device-mapper
 >=app-emulation/lxc-2.0.6-r1 cgmanager
 
 
-app-emulation/docker experimental
+# move app-emulation/docker app-containers/docker
+app-containers/docker experimental
 
 app-doc/doxygen clang latex dot doxysearch
 app-text/asciidoc python_single_target_python2_7
@@ -122,6 +125,7 @@ net-firewall/firewalld -iptables
 # required by @selected
 # required by @world (argument)
 >=dev-python/markupsafe-2.0.0 python_targets_python3_9
+
 # required by dev-python/setuptools-56.2.0::gentoo[-python_targets_pypy3,python_targets_python3_9,python_targets_python3_8,-python_targets_python3_7]
 # required by dev-python/alabaster-0.7.12::gentoo
 # required by dev-python/sphinx-4.0.1-r1::gentoo
@@ -129,3 +133,14 @@ net-firewall/firewalld -iptables
 # required by @selected
 # required by @world (argument)
 >=dev-python/setuptools_scm-6.0.1-r1 python_targets_python3_9
+
+# required by dev-util/android-sdk-update-manager-24.4.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-java/swt-3.7.2-r3:3.7 cairo
+
+dev-java/openjdk-bin gentoo-vm
+
+#sys-devel/llvm -abi_x86_32
+sys-devel/clang -abi_x86_32
+sys-libs/compiler-rt -abi_x86_32

@@ -346,12 +346,6 @@ dde-base/dde-meta multimedia
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =media-libs/libvpx-1.5.0 svc
 
-# required by kde-plasma/xdg-desktop-portal-kde-5.15.2::gentoo
-# required by kde-plasma/plasma-meta-5.15.2::gentoo[desktop-portal]
-# required by @selected
-# required by @world (argument)
->=dev-qt/qtprintsupport-5.11.3 cups
-
 # required by app-crypt/seahorse-3.30.1.1::gentoo
 # required by @selected
 # required by @world (argument)
@@ -414,10 +408,6 @@ media-gfx/imagemagick xml
 # required by @world (argument)
 >=dev-python/toml-0.10.2 python_targets_python3_9
 
-# required by kde-misc/plasma-applet-weather-widget-1.6.10-r1::gentoo
-# required by plasma-applet-weather-widget (argument)
->=dev-qt/qtxmlpatterns-5.15.2 qml
-
 # can't find cmake boost-python3.9 config
 net-libs/libtorrent-rasterbar -python
 
@@ -443,3 +433,34 @@ net-libs/libtorrent-rasterbar -python
 # required by @selected
 # required by @world (argument)
 >=media-libs/freetype-2.10.4 harfbuzz
+
+net-fs/samba cups
+
+kde-plasma/libksysguard webengine
+
+# required by app-emulation/snapd-2.51::gentoo
+# required by snapd (argument)
+>=sys-fs/squashfs-tools-4.5 lzma
+
+>=dev-java/swt-4.10-r2 cairo
+
+# required by media-gfx/hugin-2020.0.0-r1::gentoo
+# required by media-gfx/digikam-7.3.0::gentoo[panorama]
+# required by digikam (argument)
+>=media-libs/vigra-1.11.1-r3 openexr
+# required by kde-apps/kdenlive-21.08.2::gentoo
+# required by kdenlive (argument)
+>=media-libs/mlt-7.0.1-r2 frei0r
+# required by media-gfx/digikam-7.3.0::gentoo
+# required by digikam (argument)
+>=media-libs/opencv-4.5.2-r1 contrib contribdnn -gtk3 qt5
+sci-libs/hdf5 unsupported
+
+# required by gnome-extra/evolution-data-server-3.42.3::gentoo[vala]
+# required by mail-client/evolution-3.42.3::gentoo
+# required by evolution (argument)
+>=dev-libs/libical-3.0.12 vala
+# required by gnome-extra/evolution-data-server-3.42.3::gentoo[gnome-online-accounts,-oauth,vala]
+# required by mail-client/evolution-3.42.3::gentoo
+# required by evolution (argument)
+>=dev-libs/libgdata-0.18.1 vala
