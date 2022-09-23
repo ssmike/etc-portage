@@ -259,3 +259,48 @@ kde-apps/akonadi -mysql postgres
 >=dev-qt/qtprintsupport-5.15.2-r11 cups
 
 kde-apps/kdepim-meta bogofilter spamassassin
+
+# required by kde-apps/akonadi-21.12.3::gentoo
+# required by kde-apps/akonadiconsole-21.12.3::gentoo
+# required by kde-apps/kdepim-meta-21.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtsql-5.15.3 postgres
+# required by kde-misc/plasma-applet-weather-widget-1.6.10-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtxmlpatterns-5.15.3 qml
+
+# required by kde-plasma/kscreenlocker-9999::kde
+# required by kde-plasma/libkworkspace-9999::kde
+# required by kde-plasma/kde-cli-tools-9999::kde
+# required by kde-plasma/breeze-9999::kde
+# required by kde-plasma/kwin-9999::kde
+# required by =kde-plasma/kwin-9999 (argument)
+>=kde-frameworks/kconfig-9999 qml
+
+# required by kde-frameworks/plasma-5.96.0-r1::gentoo
+# required by dev-util/kdevelop-22.04.3::gentoo[plasma]
+# required by dev-util/kdevelop-python-22.04.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/kconfig-5.96.0 qml
+# required by kde-plasma/plasma-meta-5.25.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-plasma/kwin-5.25.3 lock
+
+# required by kde-misc/kweather-22.06::gentoo
+# required by kweather (argument)
+>=dev-qt/qtcharts-5.15.5 qml
+# required by kde-misc/kweather-22.06::gentoo
+# required by kweather (argument)
+>=dev-qt/qtpositioning-5.15.5 geoclue
+
+# required by net-im/neochat-22.06::gentoo
+# required by neochat (argument)
+>=kde-frameworks/knotifications-5.96.0 qml
+
+# required by media-sound/elisa-22.08.0::gentoo
+# required by elisa (argument)
+>=kde-frameworks/kfilemetadata-5.97.0 taglib

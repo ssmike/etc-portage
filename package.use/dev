@@ -141,6 +141,34 @@ net-firewall/firewalld -iptables
 
 dev-java/openjdk-bin gentoo-vm
 
-#sys-devel/llvm -abi_x86_32
-sys-devel/clang -abi_x86_32
-sys-libs/compiler-rt -abi_x86_32
+# required by app-emulation/qemu-6.2.0-r3::gentoo[static-user,-static]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/glib-2.70.3 static-libs
+# required by app-emulation/qemu-6.2.0-r3::gentoo[static-user,xattr,-static]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/attr-2.5.1 static-libs
+# required by dev-libs/glib-2.70.3::gentoo
+# required by app-emulation/qemu-6.2.0-r3::gentoo[static-user,-static]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre-8.45 static-libs
+app-emulation/qemu static-user qemu_user_targets_arm
+
+# required by sys-apps/hwloc-2.7.1-r1::gentoo[video_cards_nvidia]
+# required by dev-cpp/tbb-2021.5.0-r1::gentoo
+# required by dev-libs/pmemkv-9999::mike-overlay
+# required by @selected
+# required by @world (argument)
+>=x11-drivers/nvidia-drivers-510.60.02 static-libs
+
+# required by sys-apps/busybox-nix-sandbox-shell-1.35.0::nix-guix
+# required by sys-apps/nix-2.7.0-r1::nix-guix
+# required by @selected
+# required by @world (argument)
+>=virtual/libcrypt-2 static-libs
+
+# required by sci-mathematics/wxmaxima-22.05.0::gentoo
+# required by wxmaxima (argument)
+>=sci-visualization/gnuplot-5.4.4 wxwidgets

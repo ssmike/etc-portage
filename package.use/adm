@@ -36,3 +36,12 @@ x11-drivers/nvidia-drivers compat
 # required by app-portage/pfl-3.1-r1::gentoo[network-cron]
 # required by app-portage/pfl (argument)
 >=sys-apps/util-linux-2.36 caps
+
+net-misc/networkmanager -iwd
+
+# required by dev-libs/glib-2.74.0::gentoo
+# required by media-gfx/graphviz-6.0.1::gentoo
+# required by dev-libs/pmdk-9999::mike-overlay
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre2-10.40 static-libs

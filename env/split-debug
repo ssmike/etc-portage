@@ -1,1 +1,1 @@
-FEATURES="splitdebug"
+FEATURES="splitdebug compressdebug"

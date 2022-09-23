@@ -109,12 +109,6 @@ www-client/w3m fbcon
 # required by plymouth (argument)
 >=x11-libs/libdrm-2.4.59 libkms
 
-# required by gnome-base/gnome-keyring-3.16.0-r1::gentoo
-# required by app-crypt/libsecret-0.18.3::gentoo
-# required by gnome-extra/nm-applet-1.0.6::gentoo
-# required by nm-applet (argument)
->=app-crypt/pinentry-0.9.5 gnome-keyring
-
 # required by media-sound/mopidy-1.1.1::mike-overlay
 # required by media-plugins/mopidy-gmusic-1.0.0_pre20150624::spike
 # required by mopidy-gmusic (argument)
@@ -229,7 +223,7 @@ x11-misc/xmonad-extras perwindow volume
 # required by orion (argument)
 >=dev-qt/qtwebchannel-5.7.1 qml
 
-media-video/ffmpeg fdk
+media-video/ffmpeg fdk nvenc
 
 # required by net-p2p/qbittorrent-3.3.10::gentoo
 # required by @selected
@@ -302,7 +296,7 @@ www-client/chromium widevine
 app-crypt/gnupg tools
 
 www-client/chromium system-icu system-libvpx
-www-client/firefox wifi lto xvfb -system-cairo -system-libevent -system-icu -system-av1 -system-harfbuzz -system-sqlite -system-webp -system-jpeg -system-libvpx
+www-client/firefox wifi -lto xvfb -system-libevent -system-icu -system-av1 -system-harfbuzz -system-sqlite -system-webp -system-jpeg -system-libvpx
 
 net-fs/samba gnutls
 
@@ -464,3 +458,30 @@ sci-libs/hdf5 unsupported
 # required by mail-client/evolution-3.42.3::gentoo
 # required by evolution (argument)
 >=dev-libs/libgdata-0.18.1 vala
+
+# required by www-client/chromium-99.0.4844.27::gentoo[system-png]
+# required by chromium (argument)
+>=media-libs/libpng-1.6.37-r2 -apng
+
+sys-apps/fwupd gusb synaptics tpm uefi gnutls
+
+# required by media-sound/pulseaudio-15.99.1-r1::gentoo[daemon]
+# required by app-emulation/wine-vanilla-7.7::gentoo[pulseaudio]
+# required by @selected
+# required by @world (argument)
+>=media-sound/pulseaudio-daemon-15.99.1-r2 native-headset
+
+kde-plasma/discover flatpak
+
+# to remove gnome-keyring
+net-vpn/networkmanager-openvpn -gtk
+app-crypt/pinentry -gtk
+
+net-misc/curl adns -threads
+
+# required by app-emulation/wine-vanilla-7.17::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20220411::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libsdl2-2.24.0-r1 haptic

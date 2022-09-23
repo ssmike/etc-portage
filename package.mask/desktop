@@ -10,3 +10,5 @@
 
 #>virtual/rust-1.55.0
 #>dev-lang/rust-bin-1.55.0
+=www-client/firefox-96.0.3
+=www-client/firefox-91.5.1

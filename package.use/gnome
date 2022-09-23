@@ -54,3 +54,5 @@ gnome-base/gnome -extras
 
 gnome-base/nautilus gnome
 net-libs/gnome-online-accounts gnome
+
+>=x11-libs/xapp-2.2.8 introspection
