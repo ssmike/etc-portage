@@ -84,7 +84,7 @@ dev-cpp/eigen c++11 doc
 
 app-editors/emacs xft
 
-app-emulation/qemu vte numa spice pmem
+app-emulation/qemu vte numa spice pmemk io-uring
 
 # required by app-editors/neovim-9999::gentoo
 # required by app-editors/neovim-qt-0.2.10::mike-overlay
@@ -172,3 +172,13 @@ app-emulation/qemu static-user qemu_user_targets_arm
 # required by sci-mathematics/wxmaxima-22.05.0::gentoo
 # required by wxmaxima (argument)
 >=sci-visualization/gnuplot-5.4.4 wxwidgets
+
+# required by sci-mathematics/wxmaxima-22.09.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/wxGTK-3.0.5.1 webkit
+
+dev-vcs/fossil fusefs json
+
+dev-libs/gmp static-libs
+sys-libs/ncurses static-libs
