@@ -6,6 +6,7 @@ dev-lang/python:2.7 sqlite
 app-editors/gvim python
 dev-db/sqlite doc
 dev-haskell/* haddock doc
+dev-haskell/attoparsec -doc
 dev-lang/ghc doc
 dev-java/icedtea-bin doc
 dev-java/oracle-jdk-bin doc
@@ -118,22 +119,6 @@ sys-devel/llvm gold
 
 net-firewall/firewalld -iptables
 
-# required by dev-python/mako-1.1.4::gentoo
-# required by media-libs/mesa-21.1.0::gentoo
-# required by net-libs/webkit-gtk-2.32.1::gentoo[egl]
-# required by games-util/lutris-0.5.8.3::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/markupsafe-2.0.0 python_targets_python3_9
-
-# required by dev-python/setuptools-56.2.0::gentoo[-python_targets_pypy3,python_targets_python3_9,python_targets_python3_8,-python_targets_python3_7]
-# required by dev-python/alabaster-0.7.12::gentoo
-# required by dev-python/sphinx-4.0.1-r1::gentoo
-# required by app-emulation/qemu-6.0.0::gentoo[doc]
-# required by @selected
-# required by @world (argument)
->=dev-python/setuptools_scm-6.0.1-r1 python_targets_python3_9
-
 # required by dev-util/android-sdk-update-manager-24.4.1-r1::gentoo
 # required by @selected
 # required by @world (argument)
@@ -182,3 +167,41 @@ dev-vcs/fossil fusefs json
 
 dev-libs/gmp static-libs
 sys-libs/ncurses static-libs
+
+kde-apps/kate-addons lspclient sql
+
+# required by dev-python/spyder-5.4.1::gentoo
+# required by spyder (argument)
+>=dev-python/QtPy-2.3.0 webengine
+# required by dev-python/matplotlib-3.6.2::gentoo[-test]
+# required by dev-python/ipython-8.8.0::gentoo
+# required by dev-python/qtconsole-5.4.0::gentoo
+# required by dev-python/spyder-5.4.1::gentoo
+# required by spyder (argument)
+>=dev-python/pillow-9.4.0 webp
+# required by dev-python/QtPy-2.3.0::gentoo[pyqt5]
+# required by dev-python/qdarkstyle-3.1::gentoo
+# required by dev-python/spyder-5.4.1::gentoo
+# required by spyder (argument)
+>=dev-python/PyQt5-5.15.7 sql
+# required by dev-python/pyls-spyder-0.4.0-r2::gentoo
+# required by dev-python/spyder-5.4.1::gentoo
+# required by spyder (argument)
+>=dev-python/python-lsp-server-1.7.0 all-plugins
+# required by dev-python/matplotlib-3.6.2::gentoo[-test]
+# required by dev-python/ipython-8.8.0::gentoo
+# required by dev-python/qtconsole-5.4.0::gentoo
+# required by dev-python/spyder-5.4.1::gentoo
+# required by spyder (argument)
+>=virtual/imagemagick-tools-0-r1 tiff
+# required by virtual/imagemagick-tools-0-r1::gentoo
+# required by dev-python/matplotlib-3.6.2::gentoo[-test]
+# required by dev-python/ipython-8.8.0::gentoo
+# required by dev-python/qtconsole-5.4.0::gentoo
+# required by dev-python/spyder-5.4.1::gentoo
+# required by spyder (argument)
+>=media-gfx/imagemagick-7.1.0.48-r1 tiff
+
+app-editors/vim gpm terminal
+
+dev-qt/qt-creator android serialterminal

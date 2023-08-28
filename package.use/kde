@@ -304,3 +304,6 @@ kde-apps/kdepim-meta bogofilter spamassassin
 # required by media-sound/elisa-22.08.0::gentoo
 # required by elisa (argument)
 >=kde-frameworks/kfilemetadata-5.97.0 taglib
+
+# required by dev-qt/qtwayland-6.5.1-r1::gentoo
+>=dev-qt/qtbase-6.5.1-r1 egl

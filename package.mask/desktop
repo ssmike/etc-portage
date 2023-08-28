@@ -7,8 +7,17 @@
 #>x11-drivers/nvidia-drivers-460.84
 
 #=x11-drivers/nvidia-drivers-470.57.02
+=x11-drivers/nvidia-drivers-525.89.02
 
 #>virtual/rust-1.55.0
 #>dev-lang/rust-bin-1.55.0
 =www-client/firefox-96.0.3
 =www-client/firefox-91.5.1
+
+=kde-plasma/kscreen-5.26.2
+#=kde-plasma/kwin-5.26.2.1-r1
+=kde-plasma/libkscreen-5.26.2
+#=kde-frameworks/kwayland-5.99.0
+#=kde-plasma/kwayland-integration-5.26.2
+
+=www-client/firefox-107.0.1

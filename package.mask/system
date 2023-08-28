@@ -1,4 +1,4 @@
->=sys-kernel/gentoo-sources-5.20 #nvidia
+>=sys-kernel/gentoo-sources-6.5 #nvidia
 =sys-devel/llvm-15.0.0
 =sys-devel/clang-15.0.0
 =sys-devel/clang-runtime-15.0.0
@@ -6,12 +6,14 @@
 =sys-libs/compiler-rt-sanitizers-15.0.0
 =sys-devel/llvm-common-15.0.0
 
-=sys-devel/llvm-15.0.1
-=sys-devel/clang-15.0.1
-=sys-devel/clang-runtime-15.0.1
-=sys-libs/compiler-rt-15.0.1
-=sys-libs/compiler-rt-sanitizers-15.0.1
-=sys-devel/llvm-common-15.0.1
+#sys-devel/llvm:15
+#sys-devel/clang:15
+#sys-devel/clang-runtime:15
+#sys-libs/compiler-rt:15.0.3
+#sys-libs/compiler-rt-sanitizers:15.0.3
+
+#=sys-devel/llvm-common-15.0.2
+#=sys-devel/lld-15.0.2
 
 =sys-libs/efivar-38
 

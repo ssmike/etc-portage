@@ -384,24 +384,6 @@ net-wireless/bluez extra-tools test-programs deprecated
 
 media-gfx/imagemagick xml
 
-# required by dev-python/cython-0.29.23::gentoo
-# required by dev-python/lxml-4.6.3::gentoo
-# required by sys-apps/systemd-248::gentoo
-# required by sys-apps/util-linux-2.36.2::gentoo[systemd,-build]
-# required by dev-lang/python-3.9.5::gentoo
-# required by media-libs/mesa-21.1.0::gentoo
-# required by app-emulation/qemu-6.0.0::gentoo[-static,opengl]
-# required by @selected
-# required by @world (argument)
->=dev-python/setuptools-56.1.0 python_targets_python3_9
-
-# required by dev-python/setuptools_scm-6.0.1-r1::gentoo
-# required by dev-python/python-dateutil-2.8.1-r2::gentoo
-# required by app-text/calibre-5.16.1::gentoo[python_single_target_python3_8]
-# required by @selected
-# required by @world (argument)
->=dev-python/toml-0.10.2 python_targets_python3_9
-
 # can't find cmake boost-python3.9 config
 net-libs/libtorrent-rasterbar -python
 
@@ -485,3 +467,5 @@ net-misc/curl adns -threads
 # required by @selected
 # required by @world (argument)
 >=media-libs/libsdl2-2.24.0-r1 haptic
+
+media-video/pipewire extra sound-server flatpak
