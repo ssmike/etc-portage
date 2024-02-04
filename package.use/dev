@@ -10,7 +10,8 @@ dev-haskell/attoparsec -doc
 dev-lang/ghc doc
 dev-java/icedtea-bin doc
 dev-java/oracle-jdk-bin doc
-sys-devel/gdb expat multitarget lzma python
+# move sys-devel/gdb dev-debug/gdb
+dev-debug/gdb expat multitarget lzma python
 dev-vcs/git tk
 dev-db/sqlite secure-delete
 dev-lang/rust-bin vim-syntax zsh-completion
@@ -71,7 +72,8 @@ app-containers/docker -device-mapper
 # move app-emulation/docker app-containers/docker
 app-containers/docker experimental
 
-app-doc/doxygen clang latex dot doxysearch
+# move app-doc/doxygen app-text/doxygen
+app-text/doxygen clang latex dot doxysearch
 app-text/asciidoc python_single_target_python2_7
 dev-java/oracle-jdk-bin commercial
 
@@ -205,3 +207,5 @@ kde-apps/kate-addons lspclient sql
 app-editors/vim gpm terminal
 
 dev-qt/qt-creator android serialterminal
+
+net-proxy/tsocks dns

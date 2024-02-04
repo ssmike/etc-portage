@@ -307,3 +307,16 @@ kde-apps/kdepim-meta bogofilter spamassassin
 
 # required by dev-qt/qtwayland-6.5.1-r1::gentoo
 >=dev-qt/qtbase-6.5.1-r1 egl
+
+# required by kde-plasma/kwin-5.27.9-r1::gentoo
+# required by kde-plasma/plasma-workspace-5.27.9.1::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.8.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtgui-5.15.11-r1 accessibility
+
+# required by media-sound/musescore-4.2.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtquickcontrols2-5.15.12 widgets

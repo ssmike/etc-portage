@@ -469,3 +469,7 @@ net-misc/curl adns -threads
 >=media-libs/libsdl2-2.24.0-r1 haptic
 
 media-video/pipewire extra sound-server flatpak
+
+# required by games-strategy/wesnoth-1.16.10::gentoo
+# required by games-strategy/wesnoth (argument)
+>=dev-libs/boost-1.83.0-r2 icu
