@@ -45,3 +45,14 @@ x11-drivers/nvidia-drivers compat
 >=dev-libs/libpcre2-10.40 static-libs
 
 net-misc/networkmanager iwd
+
+# required by dev-libs/elfutils-0.190::gentoo[lzma]
+# required by dev-util/perf-6.7::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-arch/xz-utils-5.6.0 static-libs
+# required by dev-libs/elfutils-0.190::gentoo[zstd]
+# required by dev-util/perf-6.7::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-arch/zstd-1.5.5-r1 static-libs
