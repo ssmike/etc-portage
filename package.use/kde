@@ -320,3 +320,6 @@ kde-apps/kdepim-meta bogofilter spamassassin
 # required by @selected
 # required by @world (argument)
 >=dev-qt/qtquickcontrols2-5.15.12 widgets
+
+# required by net-im/neochat
+dev-qt/qtmultimedia gstreamer

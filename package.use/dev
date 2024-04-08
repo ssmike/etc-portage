@@ -128,21 +128,6 @@ net-firewall/firewalld -iptables
 
 dev-java/openjdk-bin gentoo-vm
 
-# required by app-emulation/qemu-6.2.0-r3::gentoo[static-user,-static]
-# required by @selected
-# required by @world (argument)
->=dev-libs/glib-2.70.3 static-libs
-# required by app-emulation/qemu-6.2.0-r3::gentoo[static-user,xattr,-static]
-# required by @selected
-# required by @world (argument)
->=sys-apps/attr-2.5.1 static-libs
-# required by dev-libs/glib-2.70.3::gentoo
-# required by app-emulation/qemu-6.2.0-r3::gentoo[static-user,-static]
-# required by @selected
-# required by @world (argument)
->=dev-libs/libpcre-8.45 static-libs
-app-emulation/qemu static-user qemu_user_targets_arm
-
 # required by sys-apps/hwloc-2.7.1-r1::gentoo[video_cards_nvidia]
 # required by dev-cpp/tbb-2021.5.0-r1::gentoo
 # required by dev-libs/pmemkv-9999::mike-overlay
@@ -209,3 +194,13 @@ app-editors/vim gpm terminal
 dev-qt/qt-creator android serialterminal
 
 net-proxy/tsocks dns
+
+# required by app-emulation/qemu-8.2.1::gentoo[static-user]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/glib-2.78.4-r1 static-libs
+# required by app-emulation/qemu-8.2.1::gentoo[xattr,static-user]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/attr-2.5.2 static-libs
+app-emulation/qemu static-user qemu_user_targets_arm lzo
