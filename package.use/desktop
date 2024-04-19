@@ -1,0 +1,18 @@
+#net-wireless/iwdgui python_targets_python3_9
+kde-apps/kget bittorrent
+kde-plasma/plasma-meta discover
+net-im/telepathy-connection-managers sip sipe steam
+>=x11-plugins/pidgin-sipe-1.25.0-r1 telepathy
+net-wireless/wpa_supplicant uncommon-eap-types fasteap
+net-wireless/iwd standalone
+net-im/kopete groupwise testebed translator
+
+# required by games-util/steam-launcher-1.0.0.78-r2::steam-overlay
+# required by @selected
+# required by @world (argument)
+>=x11-libs/gtk+-2.24.33-r3:2 cups
+
+# required by dev-libs/libayatana-appindicator-0.5.92::gentoo
+# required by media-video/droidcam-2.1.2::gentoo
+# required by droidcam (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3

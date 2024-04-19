@@ -1,0 +1,4 @@
+# required by dev-util/kdevelop-python-22.04.3::gentoo[python_single_target_python3_9]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycodestyle-2.9.1 python_targets_python3_9
