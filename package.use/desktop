@@ -16,3 +16,8 @@ net-im/kopete groupwise testebed translator
 # required by media-video/droidcam-2.1.2::gentoo
 # required by droidcam (argument)
 >=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+
+# required by games-strategy/wesnoth-1.18.0::gentoo[-dedicated]
+# required by @selected
+# required by @world (argument)
+>=media-libs/sdl2-image-2.8.2 webp
