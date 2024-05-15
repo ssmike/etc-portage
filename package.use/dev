@@ -203,4 +203,5 @@ net-proxy/tsocks dns
 # required by @selected
 # required by @world (argument)
 >=sys-apps/attr-2.5.2 static-libs
-app-emulation/qemu static-user qemu_user_targets_arm lzo
+#app-emulation/qemu static-user qemu_user_targets_arm lzo
+app-emulation/qemu lzo qemu_user_targets_arm
