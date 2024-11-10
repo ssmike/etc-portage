@@ -95,8 +95,6 @@ app-emulation/qemu vte numa spice pmemk io-uring
 # required by @world (argument)
 >=dev-lua/luv-1.32.0.0 luajit
 
-sys-apps/systemd cgroup-hybrid
-
 sys-devel/gcc doc
 
 # required by sys-apps/nix-2.3.8::nix-guix[gc]
@@ -205,3 +203,5 @@ net-proxy/tsocks dns
 >=sys-apps/attr-2.5.2 static-libs
 #app-emulation/qemu static-user qemu_user_targets_arm lzo
 app-emulation/qemu lzo qemu_user_targets_arm
+
+sys-apps/man-pages -l10n_es
