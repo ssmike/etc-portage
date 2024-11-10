@@ -1,7 +1,10 @@
 #NJOBS=7
 #MAKEOPTS="-j7 -l7"
+COMMON_FLAGS="-march=native -pipe -fuse-ld=lld"
 CC="clang"
 CXX="clang++"
 CFLAGS="-O2 -pipe -march=native -fomit-frame-pointer -flto=thin"
 CXXFLAGS="${CFLAGS}"
-LDFLAGS="${LDFLAGS} ${CFLAGS}"
+LDFLAGS="${LDFLAGS} ${CFLAGS} ${COMMON_FLAGS}"
+LD=/usr/bin/ld.lld
+LLD=/usr/bin/ld.lld
