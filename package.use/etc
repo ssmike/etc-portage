@@ -296,7 +296,7 @@ www-client/chromium widevine
 app-crypt/gnupg tools
 
 www-client/chromium system-icu system-libvpx
-www-client/firefox wifi -lto xvfb -system-libevent -system-icu -system-av1 -system-harfbuzz -system-sqlite -system-webp -system-jpeg -system-libvpx
+www-client/firefox wifi xvfb -system-libevent -system-icu -system-av1 -system-harfbuzz -system-sqlite -system-webp -system-jpeg -system-libvpx
 
 net-fs/samba gnutls
 
@@ -349,7 +349,7 @@ media-gfx/fontforge gtk cairo
 
 dev-python/PyQt5 webengine webchannel
 
-www-client/firefox -pgo
+www-client/firefox lto
 
 media-sound/pulseaudio native-headset
 
@@ -473,3 +473,11 @@ media-video/pipewire extra sound-server flatpak
 # required by games-strategy/wesnoth-1.16.10::gentoo
 # required by games-strategy/wesnoth (argument)
 >=dev-libs/boost-1.83.0-r2 icu
+
+net-im/telegram-desktop webkit
+# required by net-im/telegram-desktop-5.5.1::gentoo[webkit,qt6]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtwayland-6.7.2-r3 compositor qml
+
+media-libs/opencv -abi_x86_32

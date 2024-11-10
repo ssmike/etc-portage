@@ -30,3 +30,11 @@ net-im/kopete groupwise testebed translator
 # required by @selected
 # required by @world (argument)
 >=dev-ruby/strscan-3.1.0 ruby_targets_ruby32
+
+app-dicts/myspell-en l10n_en-US
+
+media-sound/kasts vlc
+
+media-libs/opencv -cuda
+
+www-client/firefox clang
