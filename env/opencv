@@ -1,0 +1,4 @@
+CFLAGS="-O2 -pipe -march=native -fomit-frame-pointer"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="${LDFLAGS} ${CFLAGS}"
+CUDAHOSTLD="${CXX}"
