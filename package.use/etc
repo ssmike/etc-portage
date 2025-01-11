@@ -14,7 +14,8 @@ net-print/cups -usb
 
 # required by app-text/calibre-2.19.0
 # required by calibre (argument)
->=dev-python/PyQt5-5.4 widgets printsupport network
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.4 widgets printsupport network
 
 net-dns/avahi autoipd utils
 
@@ -40,7 +41,8 @@ media-sound/clementine googledrive lastfm
 >=dev-vcs/subversion-1.7.14 -dso perl
 >=sys-libs/zlib-1.2.8-r1 minizip
 >=dev-libs/libxml2-2.9.1-r1 icu
-sys-devel/llvm clang
+# move sys-devel/llvm llvm-core/llvm
+llvm-core/llvm clang
 app-editors/vim python vim-pager
 
 media-libs/gst-plugins-base theora
@@ -251,7 +253,8 @@ www-client/chromium -suid tcmalloc
 
 # required by app-text/calibre-2.80.0::gentoo
 # required by calibre (argument)
->=dev-python/PyQt5-5.8.2 svg gui
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.8.2 svg gui
 # required by x11-misc/xdg-utils-1.1.2::gentoo
 # required by app-text/calibre-2.83.0::gentoo
 # required by @selected
@@ -347,7 +350,8 @@ dde-base/dde-meta multimedia
 
 media-gfx/fontforge gtk cairo
 
-dev-python/PyQt5 webengine webchannel
+# move dev-python/PyQt5 dev-python/pyqt5
+dev-python/pyqt5 webengine webchannel
 
 www-client/firefox lto
 
@@ -393,7 +397,8 @@ net-libs/libtorrent-rasterbar -python
 # required by kde-apps/kamoso-21.04.2::gentoo
 # required by @selected
 # required by @world (argument)
->=sys-devel/clang-12.0.0-r1 llvm_targets_NVPTX
+# move sys-devel/clang llvm-core/clang
+>=llvm-core/clang-12.0.0-r1 llvm_targets_NVPTX
 # required by sys-devel/clang-12.0.0-r1::gentoo[llvm_targets_NVPTX]
 # required by media-video/ffmpeg-4.4::gentoo[cuda]
 # required by media-plugins/gst-plugins-libav-1.16.3::gentoo
@@ -401,7 +406,8 @@ net-libs/libtorrent-rasterbar -python
 # required by kde-apps/kamoso-21.04.2::gentoo
 # required by @selected
 # required by @world (argument)
->=sys-devel/llvm-12.0.0 llvm_targets_NVPTX
+# move sys-devel/llvm llvm-core/llvm
+>=llvm-core/llvm-12.0.0 llvm_targets_NVPTX
 
 # required by x11-libs/pango-1.48.7-r1::gentoo
 # required by media-gfx/graphviz-2.47.3::gentoo[cairo]
@@ -474,7 +480,7 @@ media-video/pipewire extra sound-server flatpak
 # required by games-strategy/wesnoth (argument)
 >=dev-libs/boost-1.83.0-r2 icu
 
-net-im/telegram-desktop webkit
+net-im/telegram-desktop -webkit
 # required by net-im/telegram-desktop-5.5.1::gentoo[webkit,qt6]
 # required by @selected
 # required by @world (argument)

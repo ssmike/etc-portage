@@ -115,7 +115,8 @@ sys-devel/gcc doc
 # required by dev-python/jupyter (argument)
 >=dev-python/QtPy-1.9.0-r2 printsupport gui svg
 
-sys-devel/llvm gold
+# move sys-devel/llvm llvm-core/llvm
+llvm-core/llvm gold
 
 net-firewall/firewalld -iptables
 
@@ -168,7 +169,8 @@ kde-apps/kate-addons lspclient sql
 # required by dev-python/qdarkstyle-3.1::gentoo
 # required by dev-python/spyder-5.4.1::gentoo
 # required by spyder (argument)
->=dev-python/PyQt5-5.15.7 sql
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.15.7 sql
 # required by dev-python/pyls-spyder-0.4.0-r2::gentoo
 # required by dev-python/spyder-5.4.1::gentoo
 # required by spyder (argument)

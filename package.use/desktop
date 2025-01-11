@@ -38,3 +38,5 @@ media-sound/kasts vlc
 media-libs/opencv -cuda
 
 www-client/firefox clang
+
+dev-python/pyqt5 widgets gui
