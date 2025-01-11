@@ -251,6 +251,8 @@ kde-plasma/kde-cli-tools kdesu
 >=sys-libs/libxcrypt-4.4.26-r1 static-libs
 
 kde-apps/akonadi -mysql postgres
+kde-apps/akonadi-config -mysql postgres
+dev-qt/qtbase -mysql postgres
 
 # required by kde-plasma/xdg-desktop-portal-kde-5.23.4::gentoo
 # required by kde-plasma/plasma-meta-5.23.4::gentoo[desktop-portal]

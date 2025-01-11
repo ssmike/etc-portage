@@ -21,3 +21,5 @@
 #=kde-plasma/kwayland-integration-5.26.2
 
 =www-client/firefox-107.0.1
+
+virtual/mysql
