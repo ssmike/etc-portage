@@ -40,3 +40,17 @@ media-libs/opencv -cuda
 www-client/firefox clang
 
 dev-python/pyqt5 widgets gui
+
+# required by dev-python/pyqt6-webengine-6.8.0::gentoo
+# required by www-client/qutebrowser-3.4.0::gentoo[python_single_target_python3_12]
+# required by qutebrowser (argument)
+>=dev-python/pyqt6-6.8.0 qml webchannel
+
+# required by media-gfx/gimp-3.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/babl-0.1.112 introspection lcms
+# required by media-gfx/gimp-3.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/gegl-0.4.56 introspection lcms
