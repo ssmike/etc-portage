@@ -57,4 +57,4 @@ net-misc/networkmanager iwd
 # required by @world (argument)
 >=app-arch/zstd-1.5.5-r1 static-libs
 
-sys-apps/systemd -cgroup-hybrid
+sys-apps/systemd -cgroup-hybrid cryptsetup
