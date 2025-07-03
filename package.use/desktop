@@ -54,3 +54,8 @@ dev-python/pyqt5 widgets gui
 # required by @selected
 # required by @world (argument)
 >=media-libs/gegl-0.4.56 introspection lcms
+
+# required by kde-plasma/plasma-meta-6.4.0::gentoo[X]
+# required by @selected
+# required by @world (argument)
+>=kde-plasma/kwin-x11-6.4.0 lock

@@ -1,4 +1,4 @@
->=sys-kernel/gentoo-sources-6.15 #nvidia
+>=sys-kernel/gentoo-sources-6.16 #nvidia
 =sys-devel/llvm-15.0.0
 =sys-devel/clang-15.0.0
 =sys-devel/clang-runtime-15.0.0
@@ -16,4 +16,3 @@
 #=sys-devel/lld-15.0.2
 
 #=sys-libs/efivar-38
-

@@ -207,3 +207,15 @@ net-proxy/tsocks dns
 app-emulation/qemu lzo qemu_user_targets_arm
 
 sys-apps/man-pages -l10n_es
+
+# required by app-containers/containers-common-0.63.0::gentoo
+# required by app-containers/podman-5.4.2::gentoo
+# required by app-containers/podman-compose-1.3.0::gentoo[-test]
+# required by app-containers/podman-compose (argument)
+>=net-firewall/iptables-1.8.11-r1 nftables
+
+# required by net-misc/turbovnc-3.2::gentoo[viewer]
+# required by turbovnc (argument)
+>=media-libs/libjpeg-turbo-3.1.0 java
+
+dev-util/kdevelop gdbui
