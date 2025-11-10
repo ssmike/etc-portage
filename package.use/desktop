@@ -59,3 +59,11 @@ dev-python/pyqt5 widgets gui
 # required by @selected
 # required by @world (argument)
 >=kde-plasma/kwin-x11-6.4.0 lock
+
+net-im/telegram-desktop webkit fonts
+
+# required by kde-plasma/kscreen-6.5.0::gentoo
+# required by kde-plasma/plasma-meta-6.5.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/kimageformats-6.19.0 avif

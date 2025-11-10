@@ -478,7 +478,6 @@ media-video/pipewire extra sound-server flatpak
 # required by games-strategy/wesnoth (argument)
 >=dev-libs/boost-1.83.0-r2 icu
 
-net-im/telegram-desktop -webkit
 # required by net-im/telegram-desktop-5.5.1::gentoo[webkit,qt6]
 # required by @selected
 # required by @world (argument)

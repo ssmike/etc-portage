@@ -325,3 +325,15 @@ kde-apps/kdepim-meta bogofilter spamassassin
 
 # required by net-im/neochat
 dev-qt/qtmultimedia gstreamer
+
+# required by net-im/neochat-25.08.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtspeech-6.9.1 qml
+
+# required by dev-libs/elfutils-0.194::gentoo
+# required by kde-plasma/drkonqi-6.5.2::gentoo
+# required by kde-plasma/plasma-meta-6.5.2::gentoo[systemd,crash-handler]
+# required by @selected
+# required by @world (argument)
+>=virtual/zlib-1.3.1-r1 static-libs

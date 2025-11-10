@@ -57,3 +57,5 @@ x11-drivers/nvidia-drivers compat
 sys-apps/systemd -cgroup-hybrid cryptsetup
 
 net-misc/openssh security-key
+
+net-vpn/openvpn dco

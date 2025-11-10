@@ -219,3 +219,4 @@ sys-apps/man-pages -l10n_es
 >=media-libs/libjpeg-turbo-3.1.0 java
 
 dev-util/kdevelop gdbui
+net-libs/nodejs npm
