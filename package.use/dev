@@ -220,3 +220,5 @@ sys-apps/man-pages -l10n_es
 
 dev-util/kdevelop gdbui
 net-libs/nodejs npm
+
+app-containers/docker-credential-helpers keyring pass
