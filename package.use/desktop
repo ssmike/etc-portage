@@ -39,6 +39,20 @@ media-libs/opencv -cuda
 
 www-client/firefox clang
 
+app-office/calligra okular
+
+# required by dev-libs/elfutils-0.194-r2::gentoo[debuginfod]
+# required by kde-plasma/drkonqi-6.6.3::gentoo
+# required by kde-plasma/plasma-meta-6.6.3::gentoo[crash-handler,systemd]
+# required by @selected
+# required by @world (argument)
+>=net-misc/curl-8.19.0 static-libs
+# required by net-misc/curl-8.19.0::gentoo[openssl,ssl]
+# required by www-client/google-chrome-146.0.7680.153::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-3.5.5-r2 static-libs
+
 dev-python/pyqt5 widgets gui
 
 # required by dev-python/pyqt6-webengine-6.8.0::gentoo
@@ -67,3 +81,7 @@ net-im/telegram-desktop webkit fonts
 # required by @selected
 # required by @world (argument)
 >=kde-frameworks/kimageformats-6.19.0 avif
+
+# required by media-sound/amarok-3.3.2::gentoo
+# required by amarok (argument)
+>=dev-qt/qttools-6.10.1-r1 designer qml
