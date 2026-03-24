@@ -484,3 +484,15 @@ media-video/pipewire extra sound-server flatpak
 >=dev-qt/qtwayland-6.7.2-r3 compositor qml
 
 media-libs/opencv -abi_x86_32
+
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[video_cards_nvidia,vulkan]
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-loader-1.4.328.0-r1 layers
+
+# required by app-office/onlyoffice-bin-9.2.1::gentoo
+# required by onlyoffice-bin (argument)
+>=dev-qt/qtgui-5.15.18 eglfs
+# required by app-office/onlyoffice-bin-9.2.1::gentoo
+# required by onlyoffice-bin (argument)
+>=dev-qt/qtmultimedia-5.15.18:5 widgets
