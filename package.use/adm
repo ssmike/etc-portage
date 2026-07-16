@@ -58,4 +58,7 @@ sys-apps/systemd -cgroup-hybrid cryptsetup
 
 net-misc/openssh security-key
 
-net-vpn/openvpn dco
+net-dns/dnsmasq conntrack idn dnssec
+
+net-vpn/openvpn kernel-ovpn
+net-proxy/v2rayA xray

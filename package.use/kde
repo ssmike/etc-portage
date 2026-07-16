@@ -343,3 +343,10 @@ dev-qt/qtmultimedia gstreamer
 # required by @selected
 # required by @world (argument)
 >=net-libs/ngtcp2-1.20.0-r1 gnutls
+
+# required by kde-apps/kdenetwork-filesharing-26.04.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/qcoro-0.13.0 qml
+
+kde-apps/okular markdown epub

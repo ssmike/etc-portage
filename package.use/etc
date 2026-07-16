@@ -297,7 +297,13 @@ www-client/chromium widevine
 app-crypt/gnupg tools
 
 www-client/chromium system-icu system-libvpx
-www-client/firefox wifi xvfb -system-libevent -system-icu -system-av1 -system-harfbuzz -system-sqlite -system-webp -system-jpeg -system-libvpx
+#www-client/firefox wifi xvfb -system-libevent -system-icu -system-av1 -system-harfbuzz -system-sqlite -system-webp -system-jpeg -system-libvpx
+
+www-client/firefox wifi xvfb system-pipewire system-png
+# required by www-client/firefox-150.0::gentoo[system-png]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libpng-1.6.58 apng
 
 net-fs/samba gnutls
 
@@ -496,3 +502,29 @@ media-libs/opencv -abi_x86_32
 # required by app-office/onlyoffice-bin-9.2.1::gentoo
 # required by onlyoffice-bin (argument)
 >=dev-qt/qtmultimedia-5.15.18:5 widgets
+
+app-office/obsidian appindicator
+
+# required by dev-ruby/irb-1.16.0::gentoo[ruby_targets_ruby32]
+# required by dev-lang/ruby-3.3.11::gentoo
+# required by net-libs/webkit-gtk-2.52.1-r410::gentoo
+# required by x11-libs/wxGTK-3.2.8.1-r2::gentoo[X,webkit]
+# required by net-p2p/amule-2.3.3-r7::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/pp-0.6.3-r1 ruby_targets_ruby32
+# required by dev-ruby/pp-0.6.3-r1::gentoo[ruby_targets_ruby32]
+# required by dev-ruby/irb-1.16.0::gentoo[ruby_targets_ruby33]
+# required by dev-lang/ruby-3.3.11::gentoo
+# required by net-libs/webkit-gtk-2.52.1-r410::gentoo
+# required by x11-libs/wxGTK-3.2.8.1-r2::gentoo[X,webkit]
+# required by net-p2p/amule-2.3.3-r7::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/prettyprint-0.2.0 ruby_targets_ruby32
+
+app-emulation/wine-proton -wow64
+
+# required by net-news/newsflash-3.3.5::guru
+# required by newsflash (argument)
+>=media-video/clapper-0.8.0 mpris

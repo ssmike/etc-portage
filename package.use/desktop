@@ -33,8 +33,6 @@ net-im/kopete groupwise testebed translator
 
 app-dicts/myspell-en l10n_en-US
 
-media-sound/kasts vlc
-
 media-libs/opencv -cuda
 
 www-client/firefox clang
@@ -85,3 +83,15 @@ net-im/telegram-desktop webkit fonts
 # required by media-sound/amarok-3.3.2::gentoo
 # required by amarok (argument)
 >=dev-qt/qttools-6.10.1-r1 designer qml
+
+# required by gui-apps/dankmaterialshell-1.4.6::guru
+# required by dankmaterialshell (argument)
+>=dev-cpp/cpptrace-1.0.4-r1 unwind
+gui-apps/dankmaterialshell greeter
+
+app-text/marknote plasma
+
+#dev-qt/qtmultimedia -pulseaudio
+media-sound/kasts gstreamer
+
+gui-wm/hyprland hyprpm
