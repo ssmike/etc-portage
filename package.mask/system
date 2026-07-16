@@ -1,4 +1,5 @@
->=sys-kernel/gentoo-sources-6.19 #nvidia
+#>=sys-kernel/gentoo-sources-6.19 #nvidia
+=sys-kernel/gentoo-sources-7.0.9-r1
 
 # invalid opcode issue
 =x11-drivers/nvidia-drivers-580.119.02
@@ -8,6 +9,7 @@
 =x11-drivers/nvidia-drivers-580.126.09-r1
 =x11-drivers/nvidia-drivers-580.126.18
 =x11-drivers/nvidia-drivers-580.142
+=x11-drivers/nvidia-drivers-595.58.03
 
 =sys-devel/llvm-15.0.0
 =sys-devel/clang-15.0.0
