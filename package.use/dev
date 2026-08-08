@@ -17,6 +17,7 @@ dev-db/sqlite secure-delete
 dev-lang/rust-bin vim-syntax zsh-completion
 dev-qt/qtwebkit printsupport
 dev-lang/scala doc
+dev-lang/zig doc
 
 # required by dev-python/pytables-3.1.1-r2::gentoo
 # required by dev-python/pandas-0.15.2::gentoo
@@ -222,3 +223,23 @@ dev-util/kdevelop gdbui
 net-libs/nodejs npm
 
 app-containers/docker-credential-helpers keyring pass
+
+sci-mathematics/wxmaxima webkit
+
+# required by dev-python/pyzmq-27.1.0::gentoo[-test]
+# required by dev-python/ipyparallel-9.2.0::gentoo
+# required by dev-python/ipython-9.15.0::gentoo[smp]
+# required by dev-python/ipykernel-7.3.0::gentoo[-test]
+# required by dev-python/jupyterlab-4.6.2::gentoo
+# required by dev-python/jupyterlab (argument)
+>=net-libs/zeromq-4.3.5-r1 -drafts
+
+app-emulation/virtualbox-kvm X
+
+# required by dev-ruby/rdoc-7.1.0::gentoo[ruby_targets_ruby32]
+# required by dev-lang/ruby-3.3.12::gentoo
+# required by net-libs/webkit-gtk-2.52.5-r410::gentoo
+# required by games-util/lutris-0.5.22-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/erb-6.0.6 ruby_targets_ruby32

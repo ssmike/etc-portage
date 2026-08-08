@@ -95,3 +95,28 @@ app-text/marknote plasma
 media-sound/kasts gstreamer
 
 gui-wm/hyprland hyprpm
+
+# required by www-client/yandex-browser-26.4.1.1110_p1::guru
+# required by yandex-browser (argument)
+>=x11-libs/pango-1.57.1 X
+
+media-libs/vulkan-layers X
+
+# required by dev-python/setuptools-scm-10.2.1::gentoo[-test]
+# required by dev-python/shtab-1.9.2::gentoo
+# required by sys-power/power-profiles-daemon-0.30-r1::gentoo[zsh-completion,python_single_target_python3_14,-bash-completion]
+# required by kde-plasma/powerdevil-6.7.3-r1::gentoo
+# required by kde-plasma/plasma-meta-6.7.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/vcs-versioning-2.2.3 python_targets_python3_12
+
+mail-client/thunderbird system-pipewire system-png
+
+# required by gui-libs/gtk-4.20.4::gentoo
+# required by gui-libs/vte-common-0.82.3::gentoo
+# required by x11-libs/vte-0.82.3::gentoo
+# required by app-emulation/qemu-10.2.3::gentoo[vte,gtk]
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-loader-1.4.357.0 X

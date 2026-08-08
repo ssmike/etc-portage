@@ -528,3 +528,7 @@ app-emulation/wine-proton -wow64
 # required by net-news/newsflash-3.3.5::guru
 # required by newsflash (argument)
 >=media-video/clapper-0.8.0 mpris
+
+# required by sci-mathematics/wxmaxima-26.06.2::gentoo
+# required by wxmaxima (argument)
+>=x11-libs/wxGTK-3.2.8.1-r2 curl
