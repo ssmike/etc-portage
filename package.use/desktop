@@ -120,3 +120,22 @@ mail-client/thunderbird system-pipewire system-png
 # required by @selected
 # required by @world (argument)
 >=media-libs/vulkan-loader-1.4.357.0 X
+
+app-emulation/wine-vanilla X -wow64
+
+# required by gui-apps/xwaylandvideobridge-0.5.1::gentoo
+# required by kde-plasma/plasma-meta-6.7.4::gentoo[xwayland]
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/kwindowsystem-6.29.0 X
+
+# required by media-video/clapper-0.10.0::guru[opengl,gtk]
+# required by media-video/clapper (argument)
+>=media-libs/gst-plugins-base-1.26.11 -X
+
+# required by kde-plasma/kdesu-gui-6.7.5::gentoo
+# required by kde-plasma/kde-cli-tools-6.7.5::gentoo[kdesu]
+# required by kde-plasma/plasma-meta-6.7.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-apps/dbus-1.16.2-r2 X
