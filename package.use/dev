@@ -243,3 +243,5 @@ app-emulation/virtualbox-kvm X
 # required by @selected
 # required by @world (argument)
 >=dev-ruby/erb-6.0.6 ruby_targets_ruby32
+
+app-containers/podman wrapper
